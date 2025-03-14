@@ -117,4 +117,3 @@ fi
 
 ### GREETING ###
 
-echo "csd is the best"
