@@ -1,0 +1,244 @@
+# i3 config
+
+# TODO: rethink all keybinds
+# read the docs
+
+# set modifier key to super
+set $mod mod4 
+
+# setting variables for programs
+set $terminal alacritty
+set $launcher "rofi -show drun"
+set $screenshot_select "flameshot gui"
+
+# gaps
+set $inner_gap_size 8
+set $outer_gap_size 4
+set $border_size 3
+
+set $up k
+set $down j
+set $right l
+set $left h
+
+gaps inner $inner_gap_size
+gaps outer $outer_gap_size
+
+# border width
+default_border pixel $border_size
+default_floating_border pixel $border_size
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango: FiraMono Nerd Font Mono 13
+
+# This font is widely installed, provides lots of unicode glyphs, right-to-left
+# text rendering and scalability on retina/hidpi displays (thanks to pango).
+#font pango:DejaVu Sans Mono 8
+
+# The combination of xss-lock, nm-applet and pactl is a popular choice, so
+# they are included here as an example. Modify as you see fit.
+
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
+# screen before suspend. Use loginctl lock-session to lock your screen.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# NetworkManager is the most popular way to manage wireless networks on Linux,
+# and nm-applet is a desktop environment-independent system tray GUI for it.
+exec --no-startup-id nm-applet
+
+# Use pactl to adjust volume in PulseAudio.
+set $refresh_i3status killall -SIGUSR1 i3status
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
+
+# use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# choose area of your screen to screenshot
+bindsym $mod+s exec $screenshot_select
+
+# start a terminal
+bindsym $mod+Return exec $terminal
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+# start launcher program
+bindsym $mod+d exec $launcher 
+
+# change focus
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
+
+# move focused window
+bindsym $mod+Shift+$left move left
+bindsym $mod+Shift+$down move down
+bindsym $mod+Shift+$up move up
+bindsym $mod+Shift+$right move right
+
+# split in horizontal orientation
+bindsym $mod+b split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+#bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# move the currently focused window to the scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+bindsym $mod+minus scratchpad show
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+	# These bindings trigger as soon as you enter the resize mode
+	
+	# Pressing left will shrink the window’s width.
+	# Pressing right will grow the window’s width.
+	# Pressing up will shrink the window’s height.
+	# Pressing down will grow the window’s height.
+	bindsym $left       resize shrink width 10 px or 10 ppt
+	bindsym $down       resize grow height 10 px or 10 ppt
+	bindsym $up         resize shrink height 10 px or 10 ppt
+	bindsym $right      resize grow width 10 px or 10 ppt
+	
+	# back to normal: Enter or Escape or $mod+r
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+	bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# move focused workspace between monitors
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
+
+# color scheme
+set $dark0_hard #1d2021   
+set $dark0      #282828   
+set $dark0_soft #32302f   
+set $dark1      #3c3836   
+set $dark2      #504945   
+set $dark3      #665c54   
+set $dark4      #7c6f64   
+
+set $gray_245 #928374   
+set $gray_244 #928374   
+
+set $light0_hard #f9f5d7   
+set $light0      #fbf1c7   
+set $light0_soft #f2e5bc   
+set $light1      #ebdbb2   
+set $light2      #d5c4a1   
+set $light3      #bdae93   
+set $light4      #a89984   
+
+set $bright_red     #fb4934   
+set $bright_green   #b8bb26   
+set $bright_yellow  #fabd2f   
+set $bright_blue    #83a598   
+set $bright_purple  #d3869b   
+set $bright_aqua    #8ec07c   
+set $bright_orange  #fe8019   
+
+set $neutral_red    #cc241d   
+set $neutral_green  #98971a   
+set $neutral_yellow #d79921   
+set $neutral_blue   #458588   
+set $neutral_purple #b16286   
+set $neutral_aqua   #689d6a   
+set $neutral_orange #d65d0e   
+
+set $faded_red    #9d0006   
+set $faded_green  #79740e   
+set $faded_yellow #b57614   
+set $faded_blue   #076678   
+set $faded_purple #8f3f71   
+set $faded_aqua   #427b58   
+set $faded_orange #af3a03   
+
+# focused_inactive #333333 #5f676a #ffffff #484e50 #5f676a
+# unfocused        #333333 #222222 #888888 #292d2e #222222
+
+# class                 border         background     text           indicator      child_border
+client.focused          $neutral_red   $neutral_red   $light0_hard   $bright_blue   $neutral_red 
+client.focused_inactive $neutral_blue  $neutral_blue  $neutral_green $neutral_green $neutral_blue  
+client.unfocused        $dark2         $dark2         $light0_hard   $dark2         $dark2
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff
+
+# autostarts
+exec_always ~/.config/i3/autostart.sh
