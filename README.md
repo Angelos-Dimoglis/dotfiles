@@ -55,11 +55,11 @@
 #### Interface
 
 | Program                   | Link                                                             | Config             |
-| ------------------------- | ---------------------------------------------------------------- | ------             |
+| ------------------------- | ---------------------------------------------------------------- | ------------------ |
 | Tiling Window Manager     | [i3wm](https://i3wm.org/)                                        | :white_check_mark: |
-| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file) |                    |
-| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                       |                    |
-| System monitor and widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file) |                    |
+| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file) | :white_check_mark: |
+| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                       | :white_check_mark: |
+| System monitor and widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file) | :white_check_mark: |
 | System tray               | [tbd]()                                                          |                    |
 | Login Manager             | [ly](https://github.com/fairyglade/ly)                           |                    |
 | Notification Deamon       | [dunst](https://github.com/dunst-project/dunst)                  |                    |
@@ -67,14 +67,14 @@
 
 #### Applications
 
-| Program                | Link                                               |
-| ---------------------- | -------------------------------------------------- |
-| Primary Browser        | [brave](https://brave.com/)                        |
-| Secondary Browser      | [firefox](https://www.mozilla.org/en-US/)          |
-| Terminal Emulator      | [alacritty](https://github.com/alacritty/alacritty)| 
-| Text Editor            | [neovim](https://neovim.io/)                       | 
-| Graphical File manager | [nemo](https://github.com/linuxmint/nemo)          | 
-| Password Manager       | [KeePassXC](https://keepassxc.org/)                |
+| Program                | Link                                               | Config             |
+| ---------------------- | -------------------------------------------------- | ------------------ |
+| Primary Browser        | [brave](https://brave.com/)                        |                    |
+| Secondary Browser      | [firefox](https://www.mozilla.org/en-US/)          |                    |
+| Terminal Emulator      | [alacritty](https://github.com/alacritty/alacritty)| :white_check_mark: |
+| Text Editor            | [neovim](https://neovim.io/)                       | :white_check_mark: |
+| Graphical File manager | [nemo](https://github.com/linuxmint/nemo)          |                    |
+| Password Manager       | [KeePassXC](https://keepassxc.org/)                |                    |
 
 ## apps i once listed but not used
 
