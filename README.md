@@ -54,16 +54,16 @@
 
 #### Interface
 
-| Program                   | Link                                                             |
-| ------------------------- | ---------------------------------------------------------------- |
-| Tiling Window Manager     | [i3wm](https://i3wm.org/)                                        | 
-| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file) | 
-| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                       | 
-| System monitor and widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file) | 
-| System tray               | [tbd]()                                                          | 
-| Login Manager             | [ly](https://github.com/fairyglade/ly)                           | 
-| Notification Deamon       | [dunst](https://github.com/dunst-project/dunst)                  | 
-| Background Browser        | [nitrogen](https://github.com/l3ib/nitrogen/)                    |
+| Program                   | Link                                                             | Config             |
+| ------------------------- | ---------------------------------------------------------------- | ------             |
+| Tiling Window Manager     | [i3wm](https://i3wm.org/)                                        | :white_check_mark: |
+| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file) |                    |
+| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                       |                    |
+| System monitor and widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file) |                    |
+| System tray               | [tbd]()                                                          |                    |
+| Login Manager             | [ly](https://github.com/fairyglade/ly)                           |                    |
+| Notification Deamon       | [dunst](https://github.com/dunst-project/dunst)                  |                    |
+| Background Browser        | [nitrogen](https://github.com/l3ib/nitrogen/)                    |                    |
 
 #### Applications
 
@@ -76,7 +76,7 @@
 | Graphical File manager | [nemo](https://github.com/linuxmint/nemo)          | 
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                |
 
-# apps i once listed but not used
+## apps i once listed but not used
 
 > [!NOTE]
 > I use the browser instead of these programs
