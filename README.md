@@ -1,6 +1,6 @@
 ## Dotfiles
 
-![image_of_rice]($HOME/Pictutes/other_images/desktop_image.png)
+![image_of_rice](/home/aggelos/Pictutes/other_images/desktop_image.png)
 
 ---
 
