@@ -1,6 +1,6 @@
 ## Dotfiles
 
-![image_of_rice](/home/aggelos/Pictutes/other_images/desktop_image.png)
+![image_of_rice](/home/Angelos_the_IV/Pictures/other_images/desktop_image.png)
 
 ---
 
