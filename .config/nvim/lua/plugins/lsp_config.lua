@@ -12,7 +12,7 @@ return {
             require("mason-lspconfig").setup({
                 ensure_installed = {
                     "lua_ls",
-                    -- "bashls",
+                    "bashls",
                     "clangd",
                     "pylsp",
                     "texlab"
@@ -25,13 +25,12 @@ return {
         "neovim/nvim-lspconfig",
         config = function()
             local capabilites = require('cmp_nvim_lsp').default_capabilities()
-
             local lspconfig = require("lspconfig")
+
             lspconfig.lua_ls.setup({
                 capabilites = capabilites;
                 settings = { Lua = { diagnostics = { globals = {'vim'}, }, }, },
             })
-            -- lspconfig.bashls.setup({})
             lspconfig.clangd.setup({
                 filetypes = { "c", "cpp", "objc", "objcpp" },
                 capabilites = capabilites;
@@ -50,6 +49,11 @@ return {
                     semanticHighlighting = true,
                 },
 
+            })
+            lspconfig.bashls.setup({
+               filetypes = {"bash", "sh"},
+               capabilites = capabilites,
+               cmd = {"bash-language-server", "start"}
             })
             lspconfig.pylsp.setup({
                 capabilites = capabilites;

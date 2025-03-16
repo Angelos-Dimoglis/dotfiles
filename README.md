@@ -2,8 +2,6 @@
 
 ![image_of_rice](desktop_image.png)
 
----
-
 ## General notice & warning
 
 * TODO
@@ -13,8 +11,6 @@
 - [ ] multi shell
 - [ ] XDG Base dirs
 - [ ] add fallback fonts to all configs
-
----
 
 ## Programs overview
 
@@ -71,11 +67,7 @@
 | Document Viewer        | [zathura](https://pwmt.org/projects/zathura/)      | 
 | Calculator             | [tbd]()                                            |
 
----
-
 ### Key bindings
-
----
 
 ### Installation
 
