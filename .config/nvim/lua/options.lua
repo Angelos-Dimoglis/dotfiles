@@ -1,5 +1,4 @@
--- vimrc for neovim
--- TODO: see vimrc for highlights
+-- "vimrc" for neovim
 
 local opt = vim.opt
 local hl = vim.api.nvim_set_hl
