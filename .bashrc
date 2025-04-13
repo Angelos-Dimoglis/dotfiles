@@ -4,6 +4,8 @@
 # | |_) | (_| \__ \ | | | | | (__ 
 # |_.__/ \__,_|___/_| |_|_|  \___|
 
+# TODO: add case insensetive tab completion for commands
+
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
@@ -11,7 +13,7 @@
 
 add_to_path () {
     # if given path doesn't exist, warn and return
-    if [ ! -d $1 ]; then
+    if [ ! -d "$1" ]; then
         echo "Warning: $1 doesn't exist (check .bashrc)"
         return
     fi
@@ -72,8 +74,8 @@ bind -m vi-insert "Control-l: clear-screen"
 # TODO: add git integration
 
 # read bash_colors file
-if [ -f ${BASH_CONFIG_FILES}bash_colors ]; then
-	. ${BASH_CONFIG_FILES}bash_colors
+if [ -f "${BASH_CONFIG_FILES}bash_colors" ]; then
+	. "${BASH_CONFIG_FILES}bash_colors"
 
     #PS1="${Bold_Blue}[${Bold_Red}\u@\h ${Bold_Blue}\W]${White}\$ ${Reset}"
 
@@ -105,15 +107,12 @@ fi
 
 ### ALIASES && FUNCTIONS ###
 
-# read bash_aliases file
-if [ -f ${BASH_CONFIG_FILES}bash_aliases ];then
-    . ${BASH_CONFIG_FILES}bash_aliases
-fi
-
-# read bash_functions file
-if [ -f ${BASH_CONFIG_FILES}bash_functions ]; then
-    . ${BASH_CONFIG_FILES}bash_functions
-fi
+for file in \
+    "${BASH_CONFIG_FILES}bash_aliases" \
+    "${BASH_CONFIG_FILES}bash_functions"
+do
+    [ -f "$file" ] && . "$file"
+done
 
 ### GREETING ###
 

@@ -2,7 +2,16 @@
 
 ![image_of_rice](desktop_image.png)
 
-## General notice & warning
+## Description
+
+This is a collection of my configurations for a minimal, keyboard-centric
+setup. 
+
+**Features**
+
+1.
+2.
+3.
 
 * TODO
 - [ ] hardware agnostic or modular
@@ -18,7 +27,7 @@
 
 | Program                | Link                                                  |
 | ---------------------- | ----------------------------------------------------- |
-| GNU/Linux Distribution | [Debian](https://www.debian.org/)                     | 
+| GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |
 | Display Server         | [X11](https://www.x.org/wiki/)                        | 
 | Color scheme           | [gruvbox](https://github.com/morhetz/gruvbox)         | 
 | Font                   | [Fira Mono](https://www.nerdfonts.com/font-downloads) | 
