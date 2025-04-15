@@ -26,10 +26,6 @@ opt.relativenumber = true
 local def_bg = "#282828"
 -- local def_bg2 =  "#3d3936"
 
--- highlight current line
-opt.cursorline = true
-hl(0, "CursorlineNr", { bold = true, fg = "#f9f5d7", bg = "#3d3936"})
-
 -------------------------------------------------------------------------------
 -- COLUMNS
 

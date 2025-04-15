@@ -3,10 +3,21 @@ return {
         -- color scheme
         "ellisonleao/gruvbox.nvim",
         priority = 1000 ,
-        config = true,
         opts = ...,
         config = function()
             vim.cmd.colorscheme "gruvbox"
+
+            -- highlight current line
+            vim.opt.cursorline = true
+            vim.api.nvim_set_hl(0, "CursorlineNr", {
+                bold = true,
+                fg = "#f9f5d7",
+                bg = "#3d3936"
+            })
+            vim.api.nvim_set_hl(0, "Cursorline", {
+                bold = true,
+                bg = "#3d3936"
+            })
         end
     }, {
         -- icons
@@ -20,6 +31,11 @@ return {
         'echasnovski/mini.statusline',
         version = false,
         config = function()
+
+            local my_active_content = function()
+                print("testing_statusline")
+            end
+
             require('mini.statusline').setup({
                 -- Content of statusline as functions which return statusline
                 -- string. See `:h statusline` and code of default contents

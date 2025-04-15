@@ -1,5 +1,6 @@
 return {
     {
+        -- lsp management
         "neovim/nvim-lspconfig",
         dependencies = {
             "williamboman/mason.nvim",
@@ -51,7 +52,7 @@ return {
             })
         end
     }, {
-
+        -- completion and snippets
         "hrsh7th/nvim-cmp",
         dependencies = {
             "L3MON4D3/LuaSnip",

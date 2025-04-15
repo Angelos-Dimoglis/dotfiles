@@ -1,5 +1,9 @@
 
-## TODO look into code actions
+## TODO 
+
+* look into code actions
+
+---
 
 * options
 * keymaps 
@@ -18,7 +22,7 @@
 ## language inteligence tools
 
 * parsers: treesitter
-* lsps
+* LSP
 * code and file system path completion + snippets 
 
 ## file manager
@@ -64,5 +68,9 @@
 * harpoon
 * undoo tree
 * quick fix list
+* vim be good traing game
 
+## teej
+
+* kickstart
 * lines connecting func braces
