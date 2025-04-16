@@ -71,7 +71,17 @@ bind -m vi-insert "Control-l: clear-screen"
 ### PROMPT ###
 
 # prompt string: [user@host path]$
-# TODO: add git integration
+
+git_prompt () {
+    local branch="$(git symbolic-ref HEAD 2>/dev/null | cut -d'/' -f3-)"
+    local branch_truncated="${branch:0:30}"
+
+    if (( ${#branch} > ${#branch_truncated} )); then
+        branch="${branch_truncated}..."
+    fi
+
+    [ -n "${branch}" ] && echo " ( ${branch}) "
+}
 
 # read bash_colors file
 if [ -f "${BASH_CONFIG_FILES}bash_colors" ]; then
@@ -81,7 +91,9 @@ if [ -f "${BASH_CONFIG_FILES}bash_colors" ]; then
 
     PS1="${Bold_Blue}["
     PS1+="${Bold_Red}\u@\h "
-    PS1+="${Bold_Blue}\W]"
+    PS1+="${Bold_Blue}\W"
+    PS1+="${Bold_Cyan}\$(git_prompt)"
+    PS1+="${Bold_Blue}]"
     PS1+="${White}\$ "
     PS1+="${Reset}"
 else
