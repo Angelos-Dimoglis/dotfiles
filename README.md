@@ -78,7 +78,11 @@ setup.
 
 ### Key bindings
 
-### Installation
+### software Installation
 
 * The installation of the aforementioned programs is described, documented and
 automated through my [post-install-script]() repository.
+
+### config reproducability
+
+* git + stow
