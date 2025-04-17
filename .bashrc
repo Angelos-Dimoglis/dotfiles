@@ -68,37 +68,8 @@ set -o vi
 bind -m vi-command "Control-l: clear-screen"
 bind -m vi-insert "Control-l: clear-screen"
 
-### PROMPT ###
 
-# prompt string: [user@host path]$
-
-git_prompt () {
-    local branch="$(git symbolic-ref HEAD 2>/dev/null | cut -d'/' -f3-)"
-    local branch_truncated="${branch:0:30}"
-
-    if (( ${#branch} > ${#branch_truncated} )); then
-        branch="${branch_truncated}..."
-    fi
-
-    [ -n "${branch}" ] && echo " ( ${branch}) "
-}
-
-# read bash_colors file
-if [ -f "${BASH_CONFIG_FILES}bash_colors" ]; then
-	. "${BASH_CONFIG_FILES}bash_colors"
-
-    #PS1="${Bold_Blue}[${Bold_Red}\u@\h ${Bold_Blue}\W]${White}\$ ${Reset}"
-
-    PS1="${Bold_Blue}["
-    PS1+="${Bold_Red}\u@\h "
-    PS1+="${Bold_Blue}\W"
-    PS1+="${Bold_Cyan}\$(git_prompt)"
-    PS1+="${Bold_Blue}]"
-    PS1+="${White}\$ "
-    PS1+="${Reset}"
-else
-	PS1="[\u@\h \W]\$ "
-fi
+### DONT KNOW ###
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
@@ -117,9 +88,12 @@ if ! shopt -oq posix; then
     fi
 fi
 
-### ALIASES && FUNCTIONS ###
+###############
+
+### PROMPT && ALIASES && FUNCTIONS ###
 
 for file in \
+    "${BASH_CONFIG_FILES}bash_prompt" \
     "${BASH_CONFIG_FILES}bash_aliases" \
     "${BASH_CONFIG_FILES}bash_functions"
 do
