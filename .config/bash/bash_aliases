@@ -1,0 +1,74 @@
+#!/bin/bash
+
+# going up directories 1-5 times 
+alias 1.="cd .."
+alias 2.="cd ../.."
+alias 3.="cd ../../.."
+alias 4.="cd ../../../.."
+alias 5.="cd ../../../../.."
+
+# ls aliasing and flags
+LS_FLAGS="-la --color=auto --group-directories-first"
+
+# if exa is installed
+if command -v exa >/dev/null 2>&1; then
+	alias ls="exa ${LS_FLAGS} --icons --git"       # standard
+	alias lm="exa ${LS_FLAGS} --no-user --no-time" # minimal
+	alias ll="exa ${LS_FLAGS} -gh --git"           # long format
+	alias l.="exa ${LS_FLAGS} -d .*"               # dot files/dirs
+    alias lt="exa ${LS_FLAGS} --tree --level=2"    # tree view
+else
+	alias ls="ls ${LS_FLAGS} -h"
+fi
+
+# open nvim by typing vim
+alias vim=${EDITOR}
+
+# useful commands
+alias open="xdg-open"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+alias xclip="xclip -selection c"
+alias bc="bc -q"
+alias path="echo $PATH | tr \":\" \"\n\" "
+alias gdb="gdb -tui"
+#alias clear="echo you dont need to clear" # I am chronic clearer
+# TODO: find a way to block the command "rm -rf /" just in case
+
+# confirm before overwriting and be verbose
+alias rm="rm -v"
+alias cp="cp -iv"
+alias mv="mv -iv"
+
+### QUICK ACCESS ###
+
+# path aliases
+alias nt="cd ~/Desktop/notes"
+alias csd="cd ~/Desktop/csd"
+alias curr_c="cd ~/Desktop/csd/current_courses"
+
+# cd to courses
+# alias <name>="cc && hy<code>"
+alias calc="cd ~/Desktop/csd/current_courses/hy111"
+alias logic="cd ~/Desktop/csd/current_courses/hy180"
+alias signals="cd ~/Desktop/csd/current_courses/hy215"
+alias comp="cd ~/Desktop/csd/current_courses/hy340"
+alias algo="cd ~/Desktop/csd/current_courses/hy380"
+
+# quick access to some files
+alias ob="open ~/Desktop/books/computer_science/bash_scripting/scripting_bible.pdf"
+alias okwh="vim ~/Desktop/notes/housekeeping/kwh_log.md"
+
+### NETWORKING ###
+
+# vpn on/off aliases
+alias vpn_on="nmcli con up id vpn_uoc"
+alias vpn_off="nmcli con down id vpn_uoc"
+
+alias available_nets="nmcli d wifi list ifname wlp2s0"
+alias disconnect_net="nmcli d disconnect wlp2s0"
+
+### DOCUMENTS ###
+
+# open all pdfs file in current directory
+alias open_pdfs="exa *.pdf | xargs -n 1 open"
