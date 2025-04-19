@@ -90,7 +90,7 @@ fi
 
 ###############
 
-### PROMPT && ALIASES && FUNCTIONS ###
+### SOURCING FILES ###
 
 for file in \
     "${BASH_CONFIG_FILES}bash_prompt" \
@@ -99,6 +99,3 @@ for file in \
 do
     [ -f "$file" ] && . "$file"
 done
-
-### GREETING ###
-
