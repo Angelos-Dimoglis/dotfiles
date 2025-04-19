@@ -90,6 +90,10 @@ fi
 
 ###############
 
+### TEMP PROMPT ###
+
+PS1="temp_prompt > "
+
 ### SOURCING FILES ###
 
 for file in \
