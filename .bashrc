@@ -68,7 +68,6 @@ set -o vi
 bind -m vi-command "Control-l: clear-screen"
 bind -m vi-insert "Control-l: clear-screen"
 
-
 ### DONT KNOW ###
 
 # If this is an xterm set the title to user@host:dir
