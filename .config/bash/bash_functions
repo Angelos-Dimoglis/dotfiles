@@ -5,6 +5,11 @@
 # nmcli d wifi connect <essid> password <pass>
 # nmcli d wifi connect <essid> --ask
 
+open_book () {
+    du -a Desktop/books/ | grep pdf | awk '{print $2}' |
+    fzf | xargs -r xdg-open
+}
+
 # ssh with automatic vpn on-off
 # usage: qssh <hostname>
 qssh () {
