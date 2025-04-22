@@ -4,8 +4,6 @@
 # | |_) | (_| \__ \ | | | | | (__ 
 # |_.__/ \__,_|___/_| |_|_|  \___|
 
-# TODO: add case insensetive tab completion for commands
-
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
@@ -24,12 +22,18 @@ add_to_path () {
     fi
 }
 
-add_to_path "$HOME/.cargo/bin"
-
 # NOTE: there is this syntax that checks for an empty $PATH
 # ${PATH:+:${PATH}}
 
 ### ENV VARIABLES ###
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+#add_to_path "$HOME/.cargo/bin"
+add_to_path "$XDG_DATA_HOME/cargo/bin"
 
 export PATH
 export BROWSER=brave
@@ -38,7 +42,11 @@ export TERMINAL=alacritty
 export PAGER=less
 export LESSHISTFILE=-
 export MANPAGER="nvim +Man\!"
-export BASH_CONFIG_FILES="$HOME/.config/bash/"
+
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export GIT_CONFIG="$XDG_CONFIG_HOME"/git/config,
+export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 
 ### HISTORY ###
 
@@ -55,11 +63,6 @@ shopt -s histappend   # append to the history file, don't overwrite it
 shopt -s checkwinsize # check terminal size
 shopt -s autocd       # <path> -> cd -- <path>
 
-### LESS ###
-
-# make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
 ### VI MODE ###
 
 # change default (emacs) binds to vim binds
@@ -68,13 +71,7 @@ set -o vi
 bind -m vi-command "Control-l: clear-screen"
 bind -m vi-insert "Control-l: clear-screen"
 
-### DONT KNOW ###
-
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-	xterm*|rxvt*) PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \W\a\]$PS1" ;;
-	*) ;;
-esac
+### COMPLETION ###
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -87,14 +84,13 @@ if ! shopt -oq posix; then
     fi
 fi
 
-###############
-
 ### TEMP PROMPT ###
 
 PS1="temp_prompt > "
 
 ### SOURCING FILES ###
 
+BASH_CONFIG_FILES="$HOME/.config/bash/"
 for file in \
     "${BASH_CONFIG_FILES}bash_prompt" \
     "${BASH_CONFIG_FILES}bash_aliases" \
