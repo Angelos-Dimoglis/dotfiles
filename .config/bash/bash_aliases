@@ -64,9 +64,6 @@ alias okwh="vim ~/Desktop/notes/housekeeping/kwh_log.md"
 alias vpn_on="nmcli con up id vpn_uoc"
 alias vpn_off="nmcli con down id vpn_uoc"
 
-alias available_nets="nmcli d wifi list ifname wlp2s0"
-alias disconnect_net="nmcli d disconnect wlp2s0"
-
 ### DOCUMENTS ###
 
 # open all pdfs file in current directory
