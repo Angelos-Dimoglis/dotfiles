@@ -1,8 +1,12 @@
 #!/bin/bash
 
-# connect to utopia
-#curl uto.pia/login
-#
+connect_to_utopia () {
+    nmcli d wifi connect Utopia --ask
+    URL=""
+    curl uto.pia/login | grep "$URL"
+    # open the url in the browser
+}
+
 # nmcli d wifi connect <essid> password <pass>
 # nmcli d wifi connect <essid> --ask
 # nmcli d disconnect wlp2s0
