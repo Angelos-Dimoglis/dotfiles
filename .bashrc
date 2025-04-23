@@ -7,6 +7,25 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
+### ENV VARIABLES ###
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+export BROWSER=brave
+export EDITOR=nvim
+export TERMINAL=alacritty
+export PAGER=less
+export LESSHISTFILE=-
+export MANPAGER="nvim +Man\!"
+
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
+export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
+
 ### PATH ###
 
 add_to_path () {
@@ -22,30 +41,12 @@ add_to_path () {
     fi
 }
 
-# NOTE: there is this syntax that checks for an empty $PATH
-# ${PATH:+:${PATH}}
-
-### ENV VARIABLES ###
-
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_STATE_HOME="$HOME/.local/state"
-
 add_to_path "$XDG_DATA_HOME/cargo/bin"
 
 export PATH
-export BROWSER=brave
-export EDITOR=nvim
-export TERMINAL=alacritty
-export PAGER=less
-export LESSHISTFILE=-
-export MANPAGER="nvim +Man\!"
 
-export CARGO_HOME="$XDG_DATA_HOME/cargo"
-export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
-export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
-export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
+# NOTE: there is this syntax that checks for an empty $PATH
+# ${PATH:+:${PATH}}
 
 ### HISTORY ###
 
