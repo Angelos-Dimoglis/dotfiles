@@ -32,7 +32,6 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
-#add_to_path "$HOME/.cargo/bin"
 add_to_path "$XDG_DATA_HOME/cargo/bin"
 
 export PATH
