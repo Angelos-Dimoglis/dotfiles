@@ -10,6 +10,7 @@ set $mod mod4
 set $terminal alacritty
 set $launcher "rofi -show drun"
 set $screenshot_select "flameshot gui"
+set $screenlocker "betterlockscreen -l"
 
 # gaps
 set $inner_gap_size 8
@@ -57,6 +58,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# lock the screen
+bindsym $mod+Shift+x exec $screenlocker
 
 # choose area of your screen to screenshot
 bindsym $mod+s exec $screenshot_select
