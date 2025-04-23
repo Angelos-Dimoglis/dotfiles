@@ -5,6 +5,8 @@
 
 ---
 
+# features implemented
+
 * options
 * keymaps 
 
@@ -23,7 +25,8 @@
 
 * parsers: treesitter
 * LSP
-* code and file system path completion + snippets 
+* code and file system path completion 
+* snippets 
 
 ## file manager
 
@@ -39,7 +42,7 @@
 
 ---
 
-##### NOT DONE YET
+# features **NOT** implemented
 
 ## git integration
 
@@ -54,6 +57,7 @@
 * nvim autopairs
 * surrond with parens
 * commenting
+    * jump to todos and fixes (folke plugin)
 
 ## documentations & notes
 
@@ -72,5 +76,7 @@
 
 ## teej
 
-* kickstart
+* goto next/prev diagnostic error
 * lines connecting func braces
+* [teej kickstart](https://www.youtube.com/watch?v=m8C0Cq9Uv9o&list=PLep05UYkc6wSbfeFvag6ui8lnPgLuo0oW&index=4)
+
