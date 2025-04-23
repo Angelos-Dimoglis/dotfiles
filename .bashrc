@@ -42,9 +42,9 @@ export PAGER=less
 export LESSHISTFILE=-
 export MANPAGER="nvim +Man\!"
 
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
-export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
-export GIT_CONFIG="$XDG_CONFIG_HOME"/git/config,
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 
 ### HISTORY ###
