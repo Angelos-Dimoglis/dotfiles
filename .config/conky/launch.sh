@@ -10,7 +10,7 @@ while pgrep -u $UID -x conky > /dev/null; do sleep 1; done
 conky
 
 # if hdmi is connected
-if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
+#if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
         # launch conky for the second monitor
         #conky
-fi
+#fi
