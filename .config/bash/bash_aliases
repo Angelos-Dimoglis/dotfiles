@@ -56,7 +56,7 @@ alias comp="cd ~/Desktop/csd/current_courses/hy340"
 alias algo="cd ~/Desktop/csd/current_courses/hy380"
 
 # quick access to some files
-alias okwh="vim ~/Desktop/notes/housekeeping/kwh_log.md"
+alias okwh="vim ~/Desktop/notes/2_areas/housekeeping/kwh_log.md"
 
 ### NETWORKING ###
 
