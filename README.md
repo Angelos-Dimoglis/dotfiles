@@ -18,7 +18,7 @@ setup.
 - [ ] distro agnostic
 - [ ] multi monitor
 - [ ] multi shell
-- [ ] XDG Base dirs
+- [X] XDG Base dirs
 - [ ] add fallback fonts to all configs
 
 ## Programs overview

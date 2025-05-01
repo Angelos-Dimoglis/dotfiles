@@ -1,10 +1,10 @@
 #!/bin/bash
 
 connect_to_utopia () {
-    nmcli d wifi connect Utopia --ask
+    nmcli d wifi connect "Utopia Internet" --ask
     URL=""
     curl uto.pia/login | grep "$URL"
-    # open the url in the browser
+    $BROWSER "$URL" 2>/dev/null
 }
 
 # nmcli d wifi connect <essid> password <pass>
@@ -13,6 +13,7 @@ connect_to_utopia () {
 # nmcli d wifi list (get list of available nets)
 # nmcli d wifi show (show password and qr code)
 # nmcli con show (show nets you have been connected)
+# nmcli con delete <ssid> (delete from known nets)
 
 open_book () {
     du -a ~/Desktop/books/ | grep pdf | awk '{print $2}' |

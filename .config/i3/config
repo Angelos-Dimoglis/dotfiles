@@ -232,9 +232,6 @@ set $faded_purple #8f3f71
 set $faded_aqua   #427b58   
 set $faded_orange #af3a03   
 
-# focused_inactive #333333 #5f676a #ffffff #484e50 #5f676a
-# unfocused        #333333 #222222 #888888 #292d2e #222222
-
 # class                 border         background     text           indicator      child_border
 client.focused          $neutral_red   $neutral_red   $light0_hard   $bright_blue   $neutral_red 
 client.focused_inactive $neutral_blue  $neutral_blue  $neutral_green $neutral_green $neutral_blue  
