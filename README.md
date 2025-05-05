@@ -35,16 +35,17 @@ setup.
 
 ### Interface
 
-| Program                   | Link                                                             | Config             |
-| ------------------------- | ---------------------------------------------------------------- | ------------------ |
-| Tiling Window Manager     | [i3wm](https://i3wm.org/)                                        | :white_check_mark: |
-| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file) | :white_check_mark: |
-| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                       | :white_check_mark: |
-| System monitor and widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file) | :white_check_mark: |
-| System tray               | [tbd]()                                                          |                    |
-| Login Manager             | [ly](https://github.com/fairyglade/ly)                           |                    |
-| Notification Deamon       | [dunst](https://github.com/dunst-project/dunst)                  |                    |
-| Background Browser        | [nitrogen](https://github.com/l3ib/nitrogen/)                    |                    |
+| Program                   | Link                                                                     | Config             |
+| ------------------------- | ------------------------------------------------------------------------ | ------------------ |
+| Tiling Window Manager     | [i3wm](https://i3wm.org/)                                                | :white_check_mark: |
+| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file)         | :white_check_mark: |
+| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                               | :white_check_mark: |
+| System monitor and widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file)         | :white_check_mark: |
+| System tray               | [tbd]()                                                                  |                    |
+| Login Manager             | [ly](https://github.com/fairyglade/ly)                                   |                    |
+| Notification Deamon       | [dunst](https://github.com/dunst-project/dunst)                          |                    |
+| Background Browser        | [nitrogen](https://github.com/l3ib/nitrogen/)                            |                    |
+| Lockscreen                | [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) |                    |
 
 ### Applications
 

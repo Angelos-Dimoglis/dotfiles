@@ -67,4 +67,4 @@ alias vpn_off="nmcli con down id vpn_uoc"
 ### DOCUMENTS ###
 
 # open all pdfs file in current directory
-alias open_pdfs="exa *.pdf | xargs -n 1 open"
+alias open_pdfs="exa *.pdf | xargs -n 1 xdg-open"
