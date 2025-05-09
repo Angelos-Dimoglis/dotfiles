@@ -243,3 +243,9 @@ client.background       #ffffff
 
 # autostarts
 exec_always ~/.config/i3/autostart.sh
+
+#assign [class="Alacritty"] 2
+#assign [class="Brave-browser"] 3
+
+exec --no-startup-id i3-msg 'workspace 2; exec alacritty'
+exec --no-startup-id i3-msg 'workspace 3; exec brave'
