@@ -233,19 +233,27 @@ set $faded_aqua   #427b58
 set $faded_orange #af3a03   
 
 # class                 border         background     text           indicator      child_border
-client.focused          $neutral_red   $neutral_red   $light0_hard   $bright_blue   $neutral_red 
-client.focused_inactive $neutral_blue  $neutral_blue  $neutral_green $neutral_green $neutral_blue  
+client.focused          $neutral_red   $neutral_red   $light0_hard   $bright_blue   $neutral_red
+client.focused_inactive $neutral_blue  $neutral_blue  $neutral_green $neutral_green $neutral_blue
 client.unfocused        $dark2         $dark2         $light0_hard   $dark2         $dark2
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 
-# autostarts
-exec_always ~/.config/i3/autostart.sh
-
 #assign [class="Alacritty"] 2
 #assign [class="Brave-browser"] 3
 
+set $monitor_laptop eDP-1
+set $monitor_external HDMI-1
+
+workspace 1 output $monitor_laptop
+workspace 2 output $monitor_external
+workspace 3 output $monitor_external
+
 exec --no-startup-id i3-msg 'workspace 2; exec alacritty'
+exec --no-startup-id sh -c "sleep 1"
 exec --no-startup-id i3-msg 'workspace 3; exec brave'
+
+# autostarts
+exec_always ~/.config/i3/autostart.sh

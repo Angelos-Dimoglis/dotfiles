@@ -1,10 +1,16 @@
 #!/bin/bash
 
+mkv_to_mp4 () {
+    for i in *.mkv; do
+        ffmpeg -i "$i" -codec copy "${i%.*}.mp4"
+    done
+}
+
 connect_to_utopia () {
     nmcli d wifi connect "Utopia Internet" --ask
     URL=""
-    curl uto.pia/login | grep "$URL"
-    $BROWSER "$URL" 2>/dev/null
+    curl uto.pia/login | grep location # get the url via awk put it in a var
+    # curl the url
 }
 
 # nmcli d wifi connect <essid> password <pass>
