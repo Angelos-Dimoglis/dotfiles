@@ -7,19 +7,31 @@
 This is a collection of my configurations for a minimal, keyboard-centric
 setup. 
 
+> [!CAUTION]
+> My configs may cause undesirable effects on other systems. Make sure you read
+> and understand every file you use and modify it to suit your needs.
+
 **Features**
 
-1.
-2.
-3.
+1. Keyboard-centric
+1. Minimal software
+1. Minimal use of resources (cpu, memory)
+1. Follows the XDG base directory specification
+1. Reproducible to other devices
 
-* TODO
-- [ ] hardware agnostic or modular
-- [ ] distro agnostic
-- [ ] multi monitor
-- [ ] multi shell
-- [X] XDG Base dirs
-- [ ] add fallback fonts to all configs
+**Features not yet implemented**
+
+1. Hardware agnostic or modular
+    * Apply configs to any desktop or modify variables specific to the device
+1. Distro agnostic
+    * Choose any distribution and deploy the configs via post-install script
+1. Multi-monitor
+    * Extend the configs to suit your monitor setup
+1. Multi-shell
+    * Add and use any shell of your liking while having \"global\" shell 
+    configuration
+1. Fallback fonts
+    * The fonts installed are not yet taken in to consideration
 
 ## Programs overview
 
