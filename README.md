@@ -42,7 +42,7 @@ setup.
 
 ## Programs Overview
 
-Checkmarks indicate if configs are included in this repo for the program list.
+Checkmarks indicate if configs are included in this repo for the program listed.
 
 ### General
 
