@@ -18,7 +18,7 @@ setup.
 > My configs may cause undesirable effects on other systems. Make sure you read
 > and understand every file you use and modify it to suit your needs.
 
-**Features**
+### Features
 
 1. Keyboard-centric
 1. Minimal software
@@ -26,7 +26,7 @@ setup.
 1. Follows the XDG base directory specification
 1. Reproducible to other devices
 
-**Features not yet implemented**
+### Features not yet implemented
 
 1. Hardware agnostic or modular
     * Apply configs to any desktop or modify variables specific to the device
