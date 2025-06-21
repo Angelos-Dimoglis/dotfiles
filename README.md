@@ -70,32 +70,19 @@ setup.
 | Graphical File manager | [nemo](https://github.com/linuxmint/nemo)          |                    |
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                |                    |
 
-### apps i once listed but not used
+### Applications I Don't Use
 
-> [!NOTE]
-> I use the browser instead of these programs
->
-> * web mail client
-> * built-in media player
-> * discord site
-> * built-in document viewer
-> * google search calculations
-
-| Program | Link |
-| --- | --- |
-| Terminal email client  | [mutt](http://www.mutt.org/)                       | 
-| Media Player           | [celluloid](https://celluloid-player.github.io/)   | 
-| communication          | [discord](https://discord.com/)                    | 
-| Document Viewer        | [zathura](https://pwmt.org/projects/zathura/)      | 
-| Calculator             | [tbd]()                                            |
+1. Email client    (browser mail clients instead of [mutt](http://www.mutt.org/))
+1. Media player    (browser media player instead of [mpv](https://mpv.io/))
+1. Discord         (discord website instead of [discord](https://discord.com/))
+1. Document Viewer (browser document viewer instead of [zathura](https://pwmt.org/projects/zathura/))
+1. Calculator      (googling calculations instead of [gnome calculator](https://apps.gnome.org/en/Calculator/))
 
 ### Key bindings
 
-### software Installation
+* Not yet documented
 
-* The installation of the aforementioned programs is described, documented and
-automated through my [post-install-script]() repository.
+### Setup Installation
 
-### config reproducability
+* For information on how to reproduce my system visit my [system reproducibility]() repository.
 
-* git + stow
