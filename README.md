@@ -2,7 +2,7 @@
 
 ![image_of_rice](desktop_image.png)
 
-## Table of Contents
+## Table Of Contents
 
 * [Description](#Description)
 * [Programs Overview](#Programs-Overview)
@@ -26,7 +26,7 @@ setup.
 1. Follows the XDG base directory specification
 1. Reproducible to other devices
 
-### Features not yet implemented
+### Features Not Yet Implemented
 
 1. Hardware agnostic or modular
     * Apply configs to any desktop or modify variables specific to the device
