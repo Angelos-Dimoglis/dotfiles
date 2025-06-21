@@ -1,4 +1,6 @@
-## Dotfiles
+<p align="center">
+    <i>Dotfiles<\i>
+</p>
 
 ![image_of_rice](desktop_image.png)
 
