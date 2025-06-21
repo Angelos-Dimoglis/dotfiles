@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>dotfiles</h1>
+  <h1>Dotfiles</h1>
 </div>
 
 ![image_of_rice](desktop_image.png)
