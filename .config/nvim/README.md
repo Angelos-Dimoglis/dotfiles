@@ -1,4 +1,8 @@
 
+> [!NOTE]
+> This README will be redone in the future.
+> Feel free to read (or not read) these notes.
+
 ## TODO 
 
 * look into code actions

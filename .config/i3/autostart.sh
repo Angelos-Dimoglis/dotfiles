@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: add variable for ports and/or add complete multi-monitor support
+
 # if another monitor is connected
 if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
 	# set it in the left of primary monitor
