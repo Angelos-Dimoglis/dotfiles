@@ -44,13 +44,15 @@ setup.
 
 ### General
 
-| Program                | Link                                                  |
-| ---------------------- | ----------------------------------------------------- |
-| GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |
-| Display Server         | [X11](https://www.x.org/wiki/)                        | 
-| Color scheme           | [gruvbox](https://github.com/morhetz/gruvbox)         | 
-| Font                   | [Fira Mono](https://www.nerdfonts.com/font-downloads) | 
-| Shell                  | [GNU Bash](https://www.gnu.org/software/bash/)        | 
+Checkmarks indicate if configs are included in this repo for the program list.
+
+| Program                | Link                                                  | Config             |
+| ---------------------- | ----------------------------------------------------- | ------------------ |
+| GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |                    |
+| Display Server         | [X11](https://www.x.org/wiki/)                        |                    |
+| Color scheme           | [gruvbox](https://github.com/morhetz/gruvbox)         |                    |
+| Font                   | [Fira Mono](https://www.nerdfonts.com/font-downloads) |                    |
+| Shell                  | [GNU Bash](https://www.gnu.org/software/bash/)        | :white_check_mark: |
 
 ### Interface
 
@@ -91,5 +93,5 @@ setup.
 
 ## Setup Installation
 
-* For information on how to reproduce my system visit my [system reproducibility]() repository.
+* For information on how to reproduce my system visit my [system reproducibility]() repository
 
