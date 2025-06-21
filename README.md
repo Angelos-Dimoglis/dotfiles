@@ -2,6 +2,13 @@
 
 ![image_of_rice](desktop_image.png)
 
+## Table of Contents
+
+* [Description](#Description)
+* [Programs Overview](#Programs-Overview)
+* [Key Bindings](#Key-Bindings)
+* [Setup Installation](#Setup-Installation)
+
 ## Description
 
 This is a collection of my configurations for a minimal, keyboard-centric
@@ -33,7 +40,7 @@ setup.
 1. Fallback fonts
     * The fonts installed are not yet taken in to consideration
 
-## Programs overview
+## Programs Overview
 
 ### General
 
@@ -78,11 +85,11 @@ setup.
 1. Document Viewer (browser document viewer instead of [zathura](https://pwmt.org/projects/zathura/))
 1. Calculator      (googling calculations instead of [gnome calculator](https://apps.gnome.org/en/Calculator/))
 
-### Key bindings
+## Key Bindings
 
 * Not yet documented
 
-### Setup Installation
+## Setup Installation
 
 * For information on how to reproduce my system visit my [system reproducibility]() repository.
 
