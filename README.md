@@ -1,6 +1,6 @@
-<p align="center">
-    <i>Dotfiles<\i>
-</p>
+<div align="center">
+  <h1>dotfiles</h1>
+</div>
 
 ![image_of_rice](desktop_image.png)
 
