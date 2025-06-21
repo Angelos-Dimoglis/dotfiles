@@ -6,21 +6,6 @@ mkv_to_mp4 () {
     done
 }
 
-connect_to_utopia () {
-    nmcli d wifi connect "Utopia Internet" --ask
-    URL=""
-    curl uto.pia/login | grep location # get the url via awk put it in a var
-    # curl the url
-}
-
-# nmcli d wifi connect <essid> password <pass>
-# nmcli d wifi connect <essid> --ask
-# nmcli d disconnect wlp2s0
-# nmcli d wifi list (get list of available nets)
-# nmcli d wifi show (show password and qr code)
-# nmcli con show (show nets you have been connected)
-# nmcli con delete <ssid> (delete from known nets)
-
 open_book () {
     du -a ~/Desktop/books/ | grep pdf | awk '{print $2}' |
     fzf | xargs -r xdg-open
