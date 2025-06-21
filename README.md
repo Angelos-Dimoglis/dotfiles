@@ -42,9 +42,9 @@ setup.
 
 ## Programs Overview
 
-### General
-
 Checkmarks indicate if configs are included in this repo for the program list.
+
+### General
 
 | Program                | Link                                                  | Config             |
 | ---------------------- | ----------------------------------------------------- | ------------------ |
