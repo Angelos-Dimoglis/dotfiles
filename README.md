@@ -32,7 +32,7 @@ setup.
 
 1. Hardware agnostic or modular
     * Apply configs to any desktop or modify variables specific to the device
-1. Distro agnostic
+1. Distro agnostic script
     * Choose any distribution and deploy the configs via script
 1. Multi-monitor
     * Extend the configs to suit your monitor setup
