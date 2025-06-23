@@ -13,9 +13,6 @@
 
 ## Description
 
-This is a collection of my configurations for a minimal, keyboard-centric
-setup. 
-
 > [!CAUTION]
 > My configs may cause undesirable effects on other systems. Make sure you read
 > and understand every file you use and modify it to suit your needs.
@@ -48,7 +45,7 @@ Checkmarks indicate if configs are included in this repo for the program listed.
 
 ### General
 
-| Program                | Link                                                  | Config             |
+| -                      | Link                                                  | Config             |
 | ---------------------- | ----------------------------------------------------- | ------------------ |
 | GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |                    |
 | Display Server         | [X11](https://www.x.org/wiki/)                        |                    |
