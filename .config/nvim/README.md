@@ -1,4 +1,3 @@
-
 > [!NOTE]
 > This README will be redone in the future.
 > Feel free to read (or not read) these notes.
@@ -7,54 +6,50 @@
 
 * look into code actions
 
----
-
-# features implemented
+## features implemented
 
 * options
 * keymaps 
 
-## package manager
+### package manager
 
 * lazy
 
-## cosmetics and ui
+### cosmetics and ui
 
 * theme: gruvbox
 * icons: mini.icons
 * status-line: mini.statusline
 * css colors
 
-## language inteligence tools
+### language inteligence tools
 
 * parsers: treesitter
 * LSP
 * code and file system path completion 
 * snippets 
 
-## file manager
+### file manager
 
 * oil.nvim
 
-## fuzzy finding
+### fuzzy finding
 
 * telescope
 
-## markdown
+### markdown
 
 * render markdown in buffer
 
----
+## features **NOT** implemented
 
-# features **NOT** implemented
-
-## git integration
+### git integration
 
 * fugative
 * gitsigns
 * git in mini.statusline
 
-## coding
+### Programming
 
 * debugger
 
@@ -63,24 +58,23 @@
 * commenting
     * jump to todos and fixes (folke plugin)
 
-## documentations & notes
+### documentations & notes
 
 * spellcheck
 
-## mail
+### mail
 
 * email interface
 
-## primeagen
+### primeagen
 
 * harpoon
 * undoo tree
 * quick fix list
 * vim be good traing game
 
-## teej
+### teej
 
 * goto next/prev diagnostic error
 * lines connecting func braces
 * [teej kickstart](https://www.youtube.com/watch?v=m8C0Cq9Uv9o&list=PLep05UYkc6wSbfeFvag6ui8lnPgLuo0oW&index=4)
-
