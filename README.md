@@ -49,7 +49,7 @@ Checkmarks indicate if configs are included in this repo for the program listed.
 
 ### General
 
-| -                      | Link                                                  | Config             |
+|                        | Link                                                  | Config             |
 | ---------------------- | ----------------------------------------------------- | ------------------ |
 | GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |                    |
 | Display Server         | [X11](https://www.x.org/wiki/)                        |                    |
