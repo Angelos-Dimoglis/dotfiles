@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Dotfiles</h1>
+    <h1>Dotfiles</h1>
 </div>
 
 ![image_of_rice](desktop_image.png)
@@ -80,11 +80,15 @@ Checkmarks indicate if configs are included in this repo for the program listed.
 
 ### Applications I Don't Use
 
-1. Email Client    (browser mail clients instead of [mutt](http://www.mutt.org/))
-1. Media Player    (browser media player instead of [mpv](https://mpv.io/))
-1. Discord         (discord website instead of [discord](https://discord.com/))
-1. Document Viewer (browser document viewer instead of [zathura](https://pwmt.org/projects/zathura/))
-1. Calculator      (googling calculations instead of [gnome calculator](https://apps.gnome.org/en/Calculator/))
+I use the browser instead of these standalone programs.
+
+| Program         | Link                                                      |
+| --------------- | --------------------------------------------------------- |
+| Email Client    | [mutt](http://www.mutt.org/)                              |
+| Media Player    | [mpv](https://mpv.io/)                                    |
+| Discord         | [discord](https://discord.com/)                           |
+| Document Viewer | [zathura](https://pwmt.org/projects/zathura/)             |
+| Calculator      | [gnome calculator](https://apps.gnome.org/en/Calculator/) |
 
 ## Key Bindings
 
