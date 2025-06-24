@@ -4,6 +4,10 @@
 
 ![image_of_rice](desktop_image.png)
 
+> [!NOTE]
+> I commissioned this wallpaper from 
+> [vvizardbone](https://www.instagram.com/vvizardbone/).
+
 ## Table Of Contents
 
 * [Description](#Description)
