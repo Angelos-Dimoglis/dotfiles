@@ -45,7 +45,7 @@
 
 ## Programs Overview
 
-Checkmarks indicate if configs are included in this repo for the program listed.
+Check marks indicate if configs are included in this repo for the program listed.
 
 ### General
 
@@ -86,13 +86,13 @@ Checkmarks indicate if configs are included in this repo for the program listed.
 
 I use the browser instead of these standalone programs.
 
-| Program         | Link                                                      |
-| --------------- | --------------------------------------------------------- |
-| Email Client    | [mutt](http://www.mutt.org/)                              |
-| Media Player    | [mpv](https://mpv.io/)                                    |
-| Discord         | [discord](https://discord.com/)                           |
-| Document Viewer | [zathura](https://pwmt.org/projects/zathura/)             |
-| Calculator      | [gnome calculator](https://apps.gnome.org/en/Calculator/) |
+| Program                | Link                                                      |
+| ---------------------- | --------------------------------------------------------- |
+| Email Client           | [mutt](http://www.mutt.org/)                              |
+| Media Player           | [mpv](https://mpv.io/)                                    |
+| communication platform | [discord](https://discord.com/)                           |
+| Document Viewer        | [zathura](https://pwmt.org/projects/zathura/)             |
+| Calculator             | [gnome calculator](https://apps.gnome.org/en/Calculator/) |
 
 ## Key Bindings
 
