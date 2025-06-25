@@ -54,6 +54,7 @@ Check marks indicate if configs are included in this repo for the program listed
 | GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |                    |
 | Display Server         | [X11](https://www.x.org/wiki/)                        | :white_check_mark: |
 | Shell                  | [GNU Bash](https://www.gnu.org/software/bash/)        | :white_check_mark: |
+| Version Control        | [Git](https://git-scm.com/)                           | :white_check_mark: |
 | Color Scheme           | [Gruvbox](https://github.com/morhetz/gruvbox)         |                    |
 | Font                   | [Fira Mono](https://www.nerdfonts.com/font-downloads) |                    |
 
