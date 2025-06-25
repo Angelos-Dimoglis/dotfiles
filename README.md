@@ -53,7 +53,7 @@ Check marks indicate if configs are included in this repo for the program listed
 | ---------------------- | ----------------------------------------------------- | ------------------ |
 | GNU/Linux Distribution | [Arch](https://archlinux.org/)                        |                    |
 | Display Server         | [X11](https://www.x.org/wiki/)                        |                    |
-| Color Scheme           | [gruvbox](https://github.com/morhetz/gruvbox)         |                    |
+| Color Scheme           | [Gruvbox](https://github.com/morhetz/gruvbox)         |                    |
 | Font                   | [Fira Mono](https://www.nerdfonts.com/font-downloads) |                    |
 | Shell                  | [GNU Bash](https://www.gnu.org/software/bash/)        | :white_check_mark: |
 
@@ -62,24 +62,22 @@ Check marks indicate if configs are included in this repo for the program listed
 | Program                   | Link                                                                     | Config             |
 | ------------------------- | ------------------------------------------------------------------------ | ------------------ |
 | Tiling Window Manager     | [i3wm](https://i3wm.org/)                                                | :white_check_mark: |
-| Status Bar                | [polybar](https://github.com/polybar/polybar?tab=readme-ov-file)         | :white_check_mark: |
-| Application Launcher      | [rofi](https://github.com/davatorium/rofi)                               | :white_check_mark: |
-| System Monitor And Widget | [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file)         | :white_check_mark: |
-| System Tray               | [tbd]()                                                                  |                    |
-| Login Manager             | [ly](https://github.com/fairyglade/ly)                                   |                    |
-| Notification Deamon       | [dunst](https://github.com/dunst-project/dunst)                          |                    |
-| Background Browser        | [nitrogen](https://github.com/l3ib/nitrogen/)                            |                    |
-| Lockscreen                | [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) |                    |
+| Status Bar                | [Polybar](https://github.com/polybar/polybar?tab=readme-ov-file)         | :white_check_mark: |
+| Application Launcher      | [Rofi](https://github.com/davatorium/rofi)                               | :white_check_mark: |
+| System Monitor And Widget | [Conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file)         | :white_check_mark: |
+| Background Browser        | [Nitrogen](https://github.com/l3ib/nitrogen/)                            |                    |
+| Login Manager             | [Ly](https://github.com/fairyglade/ly)                                   |                    |
+| Lockscreen                | [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) |                    |
 
 ### Applications
 
 | Program                | Link                                               | Config             |
 | ---------------------- | -------------------------------------------------- | ------------------ |
-| Primary Browser        | [brave](https://brave.com/)                        |                    |
-| Secondary Browser      | [firefox](https://www.mozilla.org/en-US/)          |                    |
-| Terminal Emulator      | [alacritty](https://github.com/alacritty/alacritty)| :white_check_mark: |
-| Text Editor            | [neovim](https://neovim.io/)                       | :white_check_mark: |
-| Graphical File Manager | [nemo](https://github.com/linuxmint/nemo)          |                    |
+| Primary Browser        | [Brave](https://brave.com/)                        |                    |
+| Secondary Browser      | [Firefox](https://www.mozilla.org/en-US/)          |                    |
+| Terminal Emulator      | [Alacritty](https://github.com/alacritty/alacritty)| :white_check_mark: |
+| Text Editor            | [NeoVim](https://neovim.io/)                       | :white_check_mark: |
+| Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)          |                    |
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                |                    |
 
 ### Applications I Don't Use
@@ -88,11 +86,11 @@ I use the browser instead of these standalone programs.
 
 | Program                | Link                                                      |
 | ---------------------- | --------------------------------------------------------- |
-| Email Client           | [mutt](http://www.mutt.org/)                              |
-| Media Player           | [mpv](https://mpv.io/)                                    |
-| communication platform | [discord](https://discord.com/)                           |
-| Document Viewer        | [zathura](https://pwmt.org/projects/zathura/)             |
-| Calculator             | [gnome calculator](https://apps.gnome.org/en/Calculator/) |
+| Email Client           | [Mutt](http://www.mutt.org/)                              |
+| Media Player           | [Mpv](https://mpv.io/)                                    |
+| Communication Platform | [Discord](https://discord.com/)                           |
+| Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)             |
+| Calculator             | [Gnome Calculator](https://apps.gnome.org/en/Calculator/) |
 
 ## Key Bindings
 
