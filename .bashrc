@@ -25,6 +25,7 @@ export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 
 ### PATH ###
 
