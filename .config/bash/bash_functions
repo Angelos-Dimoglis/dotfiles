@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# open all <extention> files in current directory
+open_files () {
+    exa *."$1" | xargs -n 1 xdg-open
+}
+
 mkv_to_mp4 () {
     for i in *.mkv; do
         ffmpeg -i "$i" -codec copy "${i%.*}.mp4"
