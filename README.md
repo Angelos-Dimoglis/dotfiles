@@ -2,7 +2,7 @@
     <h1>Dotfiles</h1>
 </div>
 
-![image_of_rice](desktop_image.png)
+![image_of_rice](screenshots/desktop_image.png)
 
 > [!NOTE]
 > I commissioned this wallpaper from 
