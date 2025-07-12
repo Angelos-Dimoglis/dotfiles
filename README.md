@@ -68,7 +68,8 @@ Check marks indicate if configs are included in this repo for the program listed
 | System Monitor And Widget | [Conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file)         | :white_check_mark: |
 | Background Browser        | [Nitrogen](https://github.com/l3ib/nitrogen/)                            |                    |
 | Login Manager             | [Ly](https://github.com/fairyglade/ly)                                   |                    |
-| Lock Screen                | [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) |                    |
+| Lock Screen               | [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) |                    |
+| Notification Deamon       | [Dunst](https://github.com/betterlockscreen/betterlockscreen)            | :white_check_mark: |
 
 ### Applications
 
