@@ -1,5 +1,10 @@
 [user]
-	email = angelos.titos@gmail.com
 	name = Angelos-Dimoglis
+	email = angelos.titos@gmail.com
+
 [init]
 	defaultBranch = master
+
+[alias]
+    st = status -s
+    lol = log --oneline --graph --all
