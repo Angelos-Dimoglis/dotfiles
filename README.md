@@ -73,14 +73,14 @@ Check marks indicate if configs are included in this repo for the program listed
 
 ### Applications
 
-| Program                | Link                                               | Config             |
-| ---------------------- | -------------------------------------------------- | ------------------ |
-| Primary Browser        | [Brave](https://brave.com/)                        |                    |
-| Secondary Browser      | [Firefox](https://www.mozilla.org/en-US/)          |                    |
-| Terminal Emulator      | [Alacritty](https://github.com/alacritty/alacritty)| :white_check_mark: |
-| Text Editor            | [NeoVim](https://neovim.io/)                       | :white_check_mark: |
-| Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)          |                    |
-| Password Manager       | [KeePassXC](https://keepassxc.org/)                |                    |
+| Program                | Link                                                | Config             |
+| ---------------------- | --------------------------------------------------- | ------------------ |
+| Primary Browser        | [Brave](https://brave.com/)                         |                    |
+| Secondary Browser      | [Firefox](https://www.mozilla.org/en-US/)           |                    |
+| Terminal Emulator      | [Alacritty](https://github.com/alacritty/alacritty) | :white_check_mark: |
+| Text Editor            | [NeoVim](https://neovim.io/)                        | :white_check_mark: |
+| Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)           |                    |
+| Password Manager       | [KeePassXC](https://keepassxc.org/)                 |                    |
 
 ### Applications I Don't Use
 
