@@ -8,3 +8,11 @@
 [alias]
     st = status -s
     lol = log --oneline --graph --all
+
+# git clone ad:<repo_name>
+[url "git@github.com:Angelos-Dimoglis/"]
+    insteadOf = "ad:"
+
+# git clone gh:<username>/<repo_name>
+[url "git@github.com:"]
+    insteadOf = "gh:"
