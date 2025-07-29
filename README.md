@@ -81,6 +81,7 @@ Check marks indicate if configs are included in this repo for the program listed
 | Text Editor            | [NeoVim](https://neovim.io/)                        | :white_check_mark: |
 | Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)           |                    |
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                 |                    |
+| Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       |                    |
 
 ### Applications I Don't Use
 
@@ -91,7 +92,6 @@ I use the browser instead of these standalone programs.
 | Email Client           | [Mutt](http://www.mutt.org/)                              |
 | Media Player           | [Mpv](https://mpv.io/)                                    |
 | Communication Platform | [Discord](https://discord.com/)                           |
-| Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)             |
 | Calculator             | [Gnome Calculator](https://apps.gnome.org/en/Calculator/) |
 
 ## Key Bindings
