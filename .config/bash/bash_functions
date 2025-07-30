@@ -12,8 +12,9 @@ mkv_to_mp4 () {
 }
 
 open_book () {
-    du -a ~/Desktop/books/ | grep pdf | awk '{print $2}' |
-    fzf | xargs -r xdg-open
+    local file
+    file=$(du -a ~/Desktop/books/ | grep pdf | awk '{print $2}' | fzf) || return
+    nohup zathura "$file" >/dev/null 2>&1 &
 }
 
 # ssh with automatic vpn on-off
