@@ -81,7 +81,7 @@ Check marks indicate if configs are included in this repo for the program listed
 | Text Editor            | [NeoVim](https://neovim.io/)                        | :white_check_mark: |
 | Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)           |                    |
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                 |                    |
-| Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       |                    |
+| Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       | :white_check_mark: |
 
 ### Applications I Don't Use
 
