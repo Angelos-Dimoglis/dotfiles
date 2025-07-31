@@ -2,3 +2,4 @@ set font "FiraMono Nerd Font Mono 12"
 set statusbar-basename true
 
 set selection-clipboard clipboard
+set selection-notification false
