@@ -20,13 +20,13 @@ $HOME/.config/polybar/launch.sh
 $HOME/.config/conky/launch.sh
 
 # programs to launch on startup
-flameshot &
-sxhkd &
+#flameshot &
+#sxhkd &
 
 # terminate already running dunst instances
-killall -q dunst
+#killall -q dunst
 
 # wait until the processes have been shut down
-while pgrep -u $UID -x dunst > /dev/null; do sleep 1; done
+#while pgrep -u $UID -x dunst > /dev/null; do sleep 1; done
 
-dunst &
+#dunst &
