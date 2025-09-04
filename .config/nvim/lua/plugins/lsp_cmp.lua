@@ -13,7 +13,8 @@ return {
                     "bashls",
                     "clangd",
                     "lua_ls",
-                    "pylsp"
+                    "pylsp",
+                    "gopls"
                 },
                 -- default handler
                 handlers = {
@@ -44,6 +45,9 @@ return {
                 },
             })
             require('lspconfig').pylsp.setup({
+                capabilities = capabilities
+            })
+            require('lspconfig').gopls.setup({
                 capabilities = capabilities
             })
 
