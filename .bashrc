@@ -44,6 +44,7 @@ add_to_path () {
 }
 
 add_to_path "$XDG_DATA_HOME/cargo/bin"
+add_to_path "$HOME/Downloads/idea-IU-252.25557.131/bin"
 
 export PATH
 
