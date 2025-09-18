@@ -1,4 +1,5 @@
 .git
 .gitignore
 screenshots
+Makefile
 README.md
