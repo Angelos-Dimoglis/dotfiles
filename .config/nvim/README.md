@@ -43,6 +43,8 @@
 
 ## features **NOT** implemented
 
+* jump to merge conflict (keybind)
+
 ### git integration
 
 * fugative
