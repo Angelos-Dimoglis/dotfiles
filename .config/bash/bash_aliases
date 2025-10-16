@@ -49,11 +49,12 @@ alias curr_c="cd ~/Desktop/csd/current_courses"
 
 # cd to courses
 # alias <name>="cc && hy<code>"
-alias calc="cd ~/Desktop/csd/current_courses/hy111"
-alias logic="cd ~/Desktop/csd/current_courses/hy180"
-alias signals="cd ~/Desktop/csd/current_courses/hy215"
-alias comp="cd ~/Desktop/csd/current_courses/hy340"
-alias algo="cd ~/Desktop/csd/current_courses/hy380"
+alias jv="cd ~/Desktop/csd/current_courses/hy252"
+alias net="cd ~/Desktop/csd/current_courses/hy335"
+alias db="cd ~/Desktop/csd/current_courses/hy360"
+alias ca="cd ~/Desktop/csd/current_courses/hy425"
+alias ws="cd ~/Desktop/csd/current_courses/hy452"
+alias stat="cd ~/Desktop/csd/current_courses/mem262"
 
 # quick access to some files
 alias okwh="vim ~/Desktop/notes/3_resources/housekeeping/kwh_log.md"
@@ -63,3 +64,4 @@ alias okwh="vim ~/Desktop/notes/3_resources/housekeeping/kwh_log.md"
 # vpn on/off aliases
 alias vpn_on="nmcli con up id vpn_uoc"
 alias vpn_off="nmcli con down id vpn_uoc"
+

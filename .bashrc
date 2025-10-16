@@ -27,6 +27,7 @@ export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 export GOPATH="$XDG_DATA_HOME/go"
+export TEXMFVAR=$XDG_CACHE_HOME/texlive/texmf-var
 
 ### PATH ###
 
