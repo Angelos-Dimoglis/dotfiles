@@ -28,6 +28,7 @@ export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 export GOPATH="$XDG_DATA_HOME/go"
 export TEXMFVAR=$XDG_CACHE_HOME/texlive/texmf-var
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 
 ### PATH ###
 
