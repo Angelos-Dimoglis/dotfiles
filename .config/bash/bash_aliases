@@ -59,6 +59,8 @@ alias stat="cd ~/Desktop/csd/current_courses/mem262"
 # quick access to some files
 alias okwh="vim ~/Desktop/notes/3_resources/housekeeping/kwh_log.md"
 
+alias bwl="vim ~/Desktop/books/books_wish_list.md"
+
 ### NETWORKING ###
 
 # vpn on/off aliases
