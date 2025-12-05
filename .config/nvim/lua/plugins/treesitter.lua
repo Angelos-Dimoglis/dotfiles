@@ -17,6 +17,7 @@ return {
                 "vim",
                 "vimdoc",
                 "query",
+                "typst"
             },
             sync_install = false,
             highlight = { enable = true },
