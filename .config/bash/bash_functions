@@ -1,5 +1,24 @@
 #!/bin/bash
 
+# live preview a typst file
+# usage: typst_prev <filename> (no extension)
+typst_prev () {
+    local filename=$1
+
+    if [ -z "$filename" ]; then
+        echo "no filename given"
+        return
+    fi
+
+    if [ ! -f "$filename".typ ]; then
+        echo "file doesn't exist"
+        return
+    fi
+
+    zathura "$filename".pdf &
+    typst w "$filename".typ >/dev/null 2>&1 &
+}
+
 # open all <extention> files in current directory
 open_files () {
     exa *."$1" | xargs -n 1 xdg-open
