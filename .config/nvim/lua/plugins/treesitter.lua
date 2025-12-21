@@ -4,14 +4,17 @@ return {
     config = function()
         require("nvim-treesitter.configs").setup({
             ensure_installed = {
+                -- programming languages
                 "c",
                 "cpp",
                 "go",
 
+                -- scripting languages
                 "bash",
                 "lua",
                 "python",
 
+                -- markup languages
                 "comment",
                 "markdown",
                 "vim",
