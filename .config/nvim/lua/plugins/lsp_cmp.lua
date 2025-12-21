@@ -10,11 +10,15 @@ return {
             require("mason").setup()
             require("mason-lspconfig").setup({
                 ensure_installed = {
-                    "bashls",
                     "clangd",
+                    "gopls",
+
+                    "bashls",
                     "lua_ls",
                     "pylsp",
-                    "gopls"
+
+                    -- TODO
+                    -- "prettypst"
                 },
                 -- default handler
                 handlers = {
@@ -28,13 +32,19 @@ return {
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
             -- initing servers
-            require('lspconfig').bashls.setup({
+            vim.lsp.config("clangd", {
                 capabilities = capabilities
             })
-            require('lspconfig').clangd.setup({
+
+            vim.lsp.config("golpls", {
                 capabilities = capabilities
             })
-            require('lspconfig').lua_ls.setup({
+
+            vim.lsp.config("bashls", {
+                capabilities = capabilities
+            })
+
+            vim.lsp.config("lua_ls", {
                 capabilities = capabilities,
                 settings = {
                     Lua = {
@@ -44,12 +54,14 @@ return {
                     },
                 },
             })
-            require('lspconfig').pylsp.setup({
+
+            vim.lsp.config("pylsp", {
                 capabilities = capabilities
             })
-            require('lspconfig').gopls.setup({
-                capabilities = capabilities
-            })
+
+            -- vim.lsp.config("prettypst", {
+                -- capabilities = capabilities
+            -- })
 
             vim.diagnostic.config({
                 virtual_text = false,
