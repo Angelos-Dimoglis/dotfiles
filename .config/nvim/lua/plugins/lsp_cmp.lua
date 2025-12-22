@@ -10,14 +10,17 @@ return {
             require("mason").setup()
             require("mason-lspconfig").setup({
                 ensure_installed = {
+                    -- programming languages
                     "clangd",
                     "gopls",
 
+                    -- scripting languages
                     "bashls",
                     "lua_ls",
                     "pylsp",
 
-                    -- TODO
+                    -- markup languages
+                    -- TODO: add typst lsp
                     -- "prettypst"
                 },
                 -- default handler
