@@ -26,6 +26,8 @@ opt.relativenumber = true
 local def_bg = "#282828"
 -- local def_bg2 =  "#3d3936"
 
+vim.opt.undofile  = true
+
 -------------------------------------------------------------------------------
 -- COLUMNS
 
