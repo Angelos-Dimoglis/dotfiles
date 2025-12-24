@@ -51,7 +51,7 @@
                     <li> <a href="https://github.com/hrsh7th/cmp-nvim-lsp">cmp-nvim-lsp </a></li>
                     <li> <a href="https://github.com/hrsh7th/cmp-path">cmp-path </a></li>
                 </ul>
-                <li> snippets </li>
+                <li> Snippets </li>
                 <ul>
                     <li> <a href="https://github.com/L3MON4D3/LuaSnip">LuaSnip </a></li>
                     <li> <a href="https://github.com/saadparwaiz1/cmp_luasnip">cmp_luasnip </a></li>
@@ -64,17 +64,13 @@
         <td> Programming Assistance Tools </td>
         <td>
             <ul>
-                <li> undo tree </li>
-                <li> auto-pairs </li>
-                <li> surround </li>
-                <li> comment </li>
-                <li> folke todo comments </li>
+                <li> Undo History Visualizer: <a href="https://github.com/mbbill/undotree">undotree </a> </li>
+                <li> Auto-Pairs: <a href="https://github.com/windwp/nvim-autopairs">autopairs </a> </li>
+                <li> Surround Text: <a href="https://github.com/kylechui/nvim-surround">nvim-surround </a> </li>
+                <li> Commenting: <a href="https://github.com/numToStr/Comment.nvim">Comment.nvim </a> </li>
+                <li> Todo Comments: <a href="https://github.com/folke/todo-comments.nvim">todo-comments.nvim </a> </li>
             </ul>
         </td>
-    </tr>
-    <tr>
-        <td> Git Integration </td>
-        <td> </td>
     </tr>
     <tr>
         <td> File Manager </td>
