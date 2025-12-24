@@ -5,22 +5,39 @@
 ## TODO 
 
 * look into code actions
+* typst parser, lsp, preview
 
 ## features implemented
 
 * options
 * keymaps 
 
-### package manager
+<table>
+    <tr>
+        <th> Type Of Plugin </th>
+        <th> Plugin Name </th>
+        <th> Description </th>
+    </tr>
+    <tr>
+        <td> package manager </td>
+        <td> lazy </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> User Interface </td>
+        <td>
+            <ul>
+                <li> theme: gruvbox </li>
+                <li> icons: mini.icons </li>
+                <li> status-line: mini.statusline </li>
+                <li> css colors </li>
+            </ul>
+        </td>
+        <td> </td>
+    </tr>
+    
+</table>
 
-* lazy
-
-### cosmetics and ui
-
-* theme: gruvbox
-* icons: mini.icons
-* status-line: mini.statusline
-* css colors
 
 ### language inteligence tools
 
