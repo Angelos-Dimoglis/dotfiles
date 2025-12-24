@@ -20,8 +20,7 @@ return {
                     "pylsp",
 
                     -- markup languages
-                    -- TODO: add typst lsp
-                    -- "prettypst"
+                    "tinymist",
                 },
                 -- default handler
                 handlers = {
