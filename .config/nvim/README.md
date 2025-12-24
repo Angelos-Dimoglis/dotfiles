@@ -6,6 +6,7 @@
 
 * look into code actions
 * typst preview
+* add links to plugin table
 
 ## features implemented
 
@@ -14,7 +15,7 @@
 
 <table>
     <tr>
-        <th> Type Of Plugin </th>
+        <th> </th>
         <th> Plugin Name </th>
         <th> Description </th>
     </tr>
@@ -50,7 +51,13 @@
     <tr>
         <td> Programming Assistance Tools </td>
         <td>
-            <li> undo tree </li>
+            <ul>
+                <li> undo tree </li>
+                <li> auto-pairs </li>
+                <li> surround </li>
+                <li> comment </li>
+                <li> folke todo comments </li>
+            </ul>
         </td>
         <td> </td>
     </tr>
@@ -89,11 +96,7 @@
 ### Programming
 
 * debugger
-
-* nvim auto-pairs
-* surround with parenthesis
-* commenting
-    * jump to todos and fixes (folke plugin)
+* aerial.nvim (folding and function navigation)
 
 ### documentations & notes
 
