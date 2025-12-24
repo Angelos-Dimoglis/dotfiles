@@ -45,14 +45,17 @@
                     <li> <a href="https://github.com/mason-org/mason-lspconfig.nvim">mason-lspconfig.nvim</a> </li>
                     <li> <a href="https://github.com/mason-org/mason.nvim">mason.nvim</a> </li>
                 </ul>
-                <li> Completion: <a href"https://github.com/hrsh7th/nvim-cmp">nvim-cmp</a> </li>
+                <li> Completion </li>
+                <ul>
+                    <li> <a href="https://github.com/hrsh7th/nvim-cmp">nvim-cmp</a> </li> 
+                    <li> <a href="https://github.com/hrsh7th/cmp-nvim-lsp">cmp-nvim-lsp </a></li>
+                    <li> <a href="https://github.com/hrsh7th/cmp-path">cmp-path </a></li>
+                </ul>
                 <li> snippets </li>
                 <ul>
                     <li> <a href="https://github.com/L3MON4D3/LuaSnip">LuaSnip </a></li>
                     <li> <a href="https://github.com/saadparwaiz1/cmp_luasnip">cmp_luasnip </a></li>
                     <li> <a href="https://github.com/rafamadriz/friendly-snippets">friendly-snippets </a></li>
-                    <li> <a href="https://github.com/hrsh7th/cmp-nvim-lsp">cmp-nvim-lsp </a></li>
-                    <li> <a href="https://github.com/hrsh7th/cmp-path">cmp-path </a></li>
                 </ul>
             </ul>
         </td>
