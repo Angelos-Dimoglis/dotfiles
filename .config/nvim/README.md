@@ -1,3 +1,4 @@
+
 > [!NOTE]
 > This README will be redone in the future.
 > Feel free to read (or not read) these notes.
@@ -8,7 +9,7 @@
 * typst preview
 * add links to plugin table
 
-## features implemented
+## Features Implemented
 
 * options
 * keymaps 
@@ -83,19 +84,18 @@
     </tr>
 </table>
 
-## features **NOT** implemented
-
-* jump to merge conflict (keybind)
+## Features **NOT** Implemented
 
 ### git integration
 
 * fugative
 * gitsigns
 * git in mini.statusline
+* jump to merge conflict (keybind)
 
 ### Programming
 
-* debugger
+* debugger (nvim-dap)
 * aerial.nvim (folding and function navigation)
 
 ### documentations & notes
@@ -108,12 +108,10 @@
 
 ### primeagen
 
-* harpoon
 * quick fix list
 * vim be good training game
 
 ### teej
 
 * goto next/prev diagnostic error
-* lines connecting func braces
 * [teej kickstart](https://www.youtube.com/watch?v=m8C0Cq9Uv9o&list=PLep05UYkc6wSbfeFvag6ui8lnPgLuo0oW&index=4)
