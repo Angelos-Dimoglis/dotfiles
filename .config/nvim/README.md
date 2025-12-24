@@ -80,22 +80,18 @@
     </tr>
     <tr>
         <td> File Manager </td>
-        <td> oil.nvim </td>
+        <td> <a href="https://github.com/stevearc/oil.nvim">oil.nvim </a> </td>
     </tr>
     <tr>
         <td> Fuzzy Finder </td>
-        <td> telescope </td>
+        <td> <a href="https://github.com/nvim-telescope/telescope.nvim">telescope.nvim </a> </td>
     </tr>
     <tr>
         <td> Markup Languages Plugins </td>
         <td>
             <ul>
-                <li>
-                    render markdown in buffer 
-                </li>
-                <li>
-                    typst preview
-                </li>
+                <li> render markdown in buffer </li>
+                <li> typst preview </li>
             </ul>
         </td>
     </tr>
