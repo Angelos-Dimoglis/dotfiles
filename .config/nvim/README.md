@@ -7,6 +7,17 @@
 
 * look into code actions
 * typst preview
+* fugative
+* gitsigns
+* git in mini.statusline
+* jump to merge conflict (keybind)
+* [ensure.nvim](https://www.reddit.com/r/neovim/comments/1prkgzp/ensurenvim_centralize_your_lsp_formatters_linters/)
+* debugger (nvim-dap)
+* aerial.nvim (folding and function navigation)
+* easier spellcheck
+* email interface
+* quick fix list
+* vim be good training game
 
 ## Features Implemented
 
@@ -16,7 +27,7 @@
 <table>
     <tr>
         <th> Category </th>
-        <th> Plugin </th>
+        <th> Plugin(s) </th>
     </tr>
     <tr>
         <td> Package Manager </td>
@@ -46,7 +57,7 @@
         <td>
             <ul>
                 <li> Parsers: <a href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter </a></li>
-                <li> LSP related plugins</li>
+                <li> LSP </li>
                 <ul>
                     <li> <a href="https://github.com/neovim/nvim-lspconfig">nvim-lspconfig</a> </li>
                     <li> <a href="https://github.com/mason-org/mason-lspconfig.nvim">mason-lspconfig.nvim</a> </li>
@@ -90,37 +101,7 @@
         <td>
             <ul>
                 <li> <a href="https://github.com/MeanderingProgrammer/render-markdown.nvim">render-markdown.nvim </a> </li>
-                <li> typst preview </li>
             </ul>
         </td>
     </tr>
 </table>
-
-## Features **NOT** Implemented
-
-### git integration
-
-* fugative
-* gitsigns
-* git in mini.statusline
-* jump to merge conflict (keybind)
-
-### Programming
-
-* [ensure.nvim](https://www.reddit.com/r/neovim/comments/1prkgzp/ensurenvim_centralize_your_lsp_formatters_linters/)
-* debugger (nvim-dap)
-* aerial.nvim (folding and function navigation)
-
-### documentations & notes
-
-* spellcheck
-
-### mail
-
-* email interface
-
-### primeagen
-
-* quick fix list
-* vim be good training game
-
