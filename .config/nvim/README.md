@@ -7,7 +7,6 @@
 
 * look into code actions
 * typst preview
-* add links to plugin table
 
 ## Features Implemented
 
@@ -22,6 +21,14 @@
     <tr>
         <td> Package Manager </td>
         <td> <a href="https://github.com/folke/lazy.nvim">lazy.nvim</a> </td>
+    </tr>
+    <tr>
+        <td> File Manager </td>
+        <td> <a href="https://github.com/stevearc/oil.nvim">oil.nvim </a> </td>
+    </tr>
+    <tr>
+        <td> Fuzzy Finder </td>
+        <td> <a href="https://github.com/nvim-telescope/telescope.nvim">telescope.nvim </a> </td>
     </tr>
     <tr>
         <td> User Interface </td>
@@ -79,18 +86,10 @@
         </td>
     </tr>
     <tr>
-        <td> File Manager </td>
-        <td> <a href="https://github.com/stevearc/oil.nvim">oil.nvim </a> </td>
-    </tr>
-    <tr>
-        <td> Fuzzy Finder </td>
-        <td> <a href="https://github.com/nvim-telescope/telescope.nvim">telescope.nvim </a> </td>
-    </tr>
-    <tr>
         <td> Markup Languages Plugins </td>
         <td>
             <ul>
-                <li> render markdown in buffer </li>
+                <li> <a href="https://github.com/MeanderingProgrammer/render-markdown.nvim">render-markdown.nvim </a> </li>
                 <li> typst preview </li>
             </ul>
         </td>
