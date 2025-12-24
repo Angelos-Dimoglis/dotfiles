@@ -65,10 +65,16 @@
         <td>
             <ul>
                 <li> Undo History Visualizer: <a href="https://github.com/mbbill/undotree">undotree </a> </li>
-                <li> Auto-Pairs: <a href="https://github.com/windwp/nvim-autopairs">autopairs </a> </li>
-                <li> Surround Text: <a href="https://github.com/kylechui/nvim-surround">nvim-surround </a> </li>
-                <li> Commenting: <a href="https://github.com/numToStr/Comment.nvim">Comment.nvim </a> </li>
-                <li> Todo Comments: <a href="https://github.com/folke/todo-comments.nvim">todo-comments.nvim </a> </li>
+                <li> Paired Text </li>
+                <ul>
+                    <li> <a href="https://github.com/windwp/nvim-autopairs">autopairs </a> </li>
+                    <li> <a href="https://github.com/kylechui/nvim-surround">nvim-surround </a> </li>
+                </ul>
+                <li> Commenting </li>
+                <ul>
+                    <li> <a href="https://github.com/numToStr/Comment.nvim">Comment.nvim </a> </li>
+                    <li> <a href="https://github.com/folke/todo-comments.nvim">todo-comments.nvim </a> </li>
+                </ul>
             </ul>
         </td>
     </tr>
