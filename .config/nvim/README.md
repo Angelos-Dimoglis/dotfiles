@@ -16,23 +16,23 @@
 
 <table>
     <tr>
-        <th> </th>
-        <th> Plugin Name </th>
+        <th> Category </th>
+        <th> Plugin </th>
         <th> Description </th>
     </tr>
     <tr>
         <td> Package Manager </td>
-        <td> lazy </td>
-        <td> </td>
+        <td> <a href="https://github.com/folke/lazy.nvim">lazy.nvim</a> </td>
+        <td> A modern plugin manager for Neovim </td>
     </tr>
     <tr>
         <td> User Interface </td>
         <td>
             <ul>
-                <li> theme: gruvbox </li>
-                <li> icons: mini.icons </li>
-                <li> status-line: mini.statusline </li>
-                <li> css colors </li>
+                <li> Theme: <a href="https://github.com/ellisonleao/gruvbox.nvim">gruvbox.nvim</a> </li>
+                <li> Icons: <a href="https://github.com/nvim-mini/mini.icons"> mini.icons</a> </li>
+                <li> Status Line: <a href="https://github.com/nvim-mini/mini.statusline">mini.statusline</a> </li>
+                <li> Color Highlights: <a href="https://github.com/brenoprata10/nvim-highlight-colors">nvim-highlight-colors</a> </li>
             </ul>
         </td>
         <td> </td>
@@ -41,7 +41,7 @@
         <td> Language Inteligence Tools </td>
         <td>
             <ul>
-                <li> parsers: treesitter </li>
+                <li> Parsers: treesitter </li>
                 <li> LSP </li>
                 <li> code and file system path completion  </li>
                 <li> snippets  </li>
@@ -78,8 +78,17 @@
         <td> </td>
     </tr>
     <tr>
-        <td> Markdown </td>
-        <td> render markdown in buffer </td>
+        <td> Markup Languages Plugins </td>
+        <td>
+            <ul>
+                <li>
+                    render markdown in buffer 
+                </li>
+                <li>
+                    typst preview
+                </li>
+            </ul>
+        </td>
         <td> </td>
     </tr>
 </table>
@@ -95,6 +104,7 @@
 
 ### Programming
 
+* [ensure.nvim](https://www.reddit.com/r/neovim/comments/1prkgzp/ensurenvim_centralize_your_lsp_formatters_linters/)
 * debugger (nvim-dap)
 * aerial.nvim (folding and function navigation)
 
@@ -111,7 +121,3 @@
 * quick fix list
 * vim be good training game
 
-### teej
-
-* goto next/prev diagnostic error
-* [teej kickstart](https://www.youtube.com/watch?v=m8C0Cq9Uv9o&list=PLep05UYkc6wSbfeFvag6ui8lnPgLuo0oW&index=4)
