@@ -19,7 +19,7 @@
         <th> Description </th>
     </tr>
     <tr>
-        <td> package manager </td>
+        <td> Package Manager </td>
         <td> lazy </td>
         <td> </td>
     </tr>
@@ -35,28 +35,34 @@
         </td>
         <td> </td>
     </tr>
-    
+    <tr>
+        <td> Language Inteligence Tools </td>
+        <td>
+            <ul>
+                <li> parsers: treesitter </li>
+                <li> LSP </li>
+                <li> code and file system path completion  </li>
+                <li> snippets  </li>
+            </ul>
+        </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> File Manager </td>
+        <td> oil.nvim </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> Fuzzy Finder </td>
+        <td> telescope </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> Markdown </td>
+        <td> render markdown in buffer </td>
+        <td> </td>
+    </tr>
 </table>
-
-
-### language inteligence tools
-
-* parsers: treesitter
-* LSP
-* code and file system path completion 
-* snippets 
-
-### file manager
-
-* oil.nvim
-
-### fuzzy finding
-
-* telescope
-
-### markdown
-
-* render markdown in buffer
 
 ## features **NOT** implemented
 
