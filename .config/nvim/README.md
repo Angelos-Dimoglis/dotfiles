@@ -5,7 +5,7 @@
 ## TODO 
 
 * look into code actions
-* typst parser, lsp, preview
+* typst preview
 
 ## features implemented
 
@@ -48,6 +48,18 @@
         <td> </td>
     </tr>
     <tr>
+        <td> Programming Assistance Tools </td>
+        <td>
+            <li> undo tree </li>
+        </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> Git Integration </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
         <td> File Manager </td>
         <td> oil.nvim </td>
         <td> </td>
@@ -78,8 +90,8 @@
 
 * debugger
 
-* nvim autopairs
-* surrond with parens
+* nvim auto-pairs
+* surround with parenthesis
 * commenting
     * jump to todos and fixes (folke plugin)
 
@@ -94,9 +106,8 @@
 ### primeagen
 
 * harpoon
-* undoo tree
 * quick fix list
-* vim be good traing game
+* vim be good training game
 
 ### teej
 
