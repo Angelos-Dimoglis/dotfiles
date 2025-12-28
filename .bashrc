@@ -70,7 +70,7 @@ shopt -s autocd       # <path> -> cd -- <path>
 
 ### VI MODE ###
 
-# change default (emacs) binds to vim binds
+# change default (CUA) binds to vim binds
 # but keep ctrl-l
 set -o vi
 bind -m vi-command "Control-l: clear-screen"
