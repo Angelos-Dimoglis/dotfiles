@@ -78,6 +78,9 @@ bind -m vi-insert "Control-l: clear-screen"
 
 ### COMPLETION ###
 
+# FIX: this was kept from the original default bashrc but completion 
+# doesn't work.
+#
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
