@@ -58,7 +58,6 @@ alias stat="cd ~/Desktop/csd/current_courses/mem262"
 
 # quick access to some files
 alias okwh="vim ~/Desktop/notes/3_resources/housekeeping/kwh_log.md"
-
 alias bwl="vim ~/Desktop/books/books_wish_list.md"
 
 ### NETWORKING ###
@@ -66,6 +65,5 @@ alias bwl="vim ~/Desktop/books/books_wish_list.md"
 # vpn on/off aliases
 alias vpn_on="nmcli con up id vpn_uoc"
 alias vpn_off="nmcli con down id vpn_uoc"
-
 
 alias run_xampp="sudo /opt/lampp/manager-linux-x64.run"
