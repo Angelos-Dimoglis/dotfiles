@@ -28,6 +28,9 @@ return {
         end
     }, {
         -- status-line
+        -- TODO: redo the elements of the status line
+        -- add file warnings, errors and git branch and additions,
+        -- deletions etc.
         'echasnovski/mini.statusline',
         version = false,
         config = function()
