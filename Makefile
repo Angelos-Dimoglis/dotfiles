@@ -1,4 +1,6 @@
 
+# TODO: this file can be replaced with a .stowrc file
+
 generate_links:
 	stow -vv .
 
