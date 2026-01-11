@@ -13,6 +13,19 @@ git_prompt () {
     [ -n "${branch}" ] && echo " ( ${branch}) "
 }
 
+git_prompt_2 () {
+    local branch="$(git symbolic-ref HEAD 2>/dev/null | cut -d'/' -f3-)"
+    local branch_truncated="${branch:0:30}"
+
+    if (( ${#branch} > ${#branch_truncated} )); then
+        branch="${branch_truncated}..."
+    fi
+
+    if [ -n "${branch}" ]; then
+        printf "%s" " on  ${branch}"
+    fi
+}
+
 # read bash_colors file
 if [ -f "${BASH_CONFIG_FILES}bash_colors" ]; then
 	. "${BASH_CONFIG_FILES}bash_colors"
@@ -20,11 +33,13 @@ if [ -f "${BASH_CONFIG_FILES}bash_colors" ]; then
     #PS1="${Bold_Blue}[${Bold_Red}\u@\h ${Bold_Blue}\W]${White}\$ ${Reset}"
 
     # inspired by this prompt: https://github.com/mathiasbynens/dotfiles
-    # FIX: on appears everytime
     #
-    # PS1=" ${Bold_Red}\u${White} at ${Bold_Blue}\h${White} in ${Bold_Green}\W"
-    # PS1+="${White} on"
-    # PS1+="${Bold_Cyan}\$(git_prompt)\n"
+    # PS1=" ${Bold_Red} \u"
+    # PS1+="${White} at "
+    # PS1+="${Bold_Blue}󰒋 \h"
+    # PS1+="${White} in "
+    # PS1+="${Bold_Green} \W"
+    # PS1+="${Bold_Cyan}\$(git_prompt_2)\n"
     # PS1+=" ${Bold_Yellow}> "
     # PS1+="${Reset}"
 
