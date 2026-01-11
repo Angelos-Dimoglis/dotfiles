@@ -8,6 +8,7 @@
 [alias]
     st = status -s
     lol = log --oneline --graph --all
+    dc = diff --cached
 
 # git clone ad:<repo_name>
 [url "git@github.com:Angelos-Dimoglis/"]
