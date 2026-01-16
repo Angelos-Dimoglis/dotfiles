@@ -18,6 +18,7 @@
 * email interface
 * quick fix list
 * vim be good training game
+* redo the status-line
 
 ## Features Implemented
 
