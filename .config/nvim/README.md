@@ -19,6 +19,7 @@
 * quick fix list
 * vim be good training game
 * redo the status-line
+* show trailing spaces in sql files or anywhere
 
 ## Features Implemented
 
