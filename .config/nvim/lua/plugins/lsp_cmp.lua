@@ -61,9 +61,9 @@ return {
                 capabilities = capabilities
             })
 
-            -- vim.lsp.config("prettypst", {
-                -- capabilities = capabilities
-            -- })
+            vim.lsp.config("tinymist", {
+                capabilities = capabilities
+            })
 
             vim.diagnostic.config({
                 virtual_text = false,

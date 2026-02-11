@@ -6,7 +6,6 @@
 ## TODO 
 
 * look into code actions
-* typst preview
 * fugative
 * gitsigns
 * git in mini.statusline
@@ -20,6 +19,7 @@
 * vim be good training game
 * redo the status-line
 * show trailing spaces in sql files or anywhere
+* different tab sizes for languages
 
 ## Features Implemented
 
@@ -103,6 +103,7 @@
         <td>
             <ul>
                 <li> <a href="https://github.com/MeanderingProgrammer/render-markdown.nvim">render-markdown.nvim </a> </li>
+                <li> <a href="https://github.com/chomosuke/typst-preview.nvim">typst-preview.nvim </a> </li>
             </ul>
         </td>
     </tr>
