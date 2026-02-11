@@ -48,13 +48,13 @@ alias csd="cd ~/Desktop/csd"
 alias curr_c="cd ~/Desktop/csd/current_courses"
 
 # cd to courses
-# alias <name>="cc && hy<code>"
-alias jv="cd ~/Desktop/csd/current_courses/hy252"
-alias net="cd ~/Desktop/csd/current_courses/hy335"
-alias db="cd ~/Desktop/csd/current_courses/hy360"
-alias ca="cd ~/Desktop/csd/current_courses/hy425"
-alias ws="cd ~/Desktop/csd/current_courses/hy452"
-alias stat="cd ~/Desktop/csd/current_courses/mem262"
+
+alias c2="cd ~/Desktop/csd/current_courses/hy111/"
+alias am="cd ~/Desktop/csd/current_courses/hy215/"
+alias pp="cd ~/Desktop/csd/current_courses/hy342/"
+alias algo="cd ~/Desktop/csd/current_courses/hy380/"
+alias mrs="cd ~/Desktop/csd/current_courses/hy446/"
+alias cna="cd ~/Desktop/csd/current_courses/hy548/"
 
 # quick access to some files
 alias okwh="vim ~/Desktop/notes/3_resources/housekeeping/kwh_log.md"
