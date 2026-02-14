@@ -55,7 +55,7 @@
         </td>
     </tr>
     <tr>
-        <td> Language Inteligence Tools </td>
+        <td> Language Intelligence Tools </td>
         <td>
             <ul>
                 <li> Parsers: <a href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter </a></li>

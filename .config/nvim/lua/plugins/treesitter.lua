@@ -20,7 +20,10 @@ return {
                 "vim",
                 "vimdoc",
                 "query",
-                "typst"
+                "typst",
+
+                -- serialization languages
+                "yaml"
             },
             sync_install = false,
             highlight = { enable = true },
