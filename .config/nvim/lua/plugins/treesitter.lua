@@ -15,15 +15,17 @@ return {
                 "python",
 
                 -- markup languages
-                "comment",
                 "markdown",
-                "vim",
-                "vimdoc",
-                "query",
                 "typst",
 
                 -- serialization languages
-                "yaml"
+                "yaml",
+
+                -- other
+                "comment",
+                "vim",
+                "vimdoc",
+                "query"
             },
             sync_install = false,
             highlight = { enable = true },
