@@ -48,7 +48,6 @@ alias csd="cd ~/Desktop/csd"
 alias curr_c="cd ~/Desktop/csd/current_courses"
 
 # cd to courses
-
 alias c2="cd ~/Desktop/csd/current_courses/hy111/"
 alias am="cd ~/Desktop/csd/current_courses/hy215/"
 alias pp="cd ~/Desktop/csd/current_courses/hy342/"
