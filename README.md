@@ -16,22 +16,22 @@
 > and understand every file you use and modify it to suit your needs.
 
 The purpose of this repository is to house my personal configurations of the 
-software I use. In the following sections I will describe the *values* of 
-engineering and the *goals* of this project.
+software I use. In the following sections I will describe the **values** of 
+engineering and the **goals** of this project.
 
 ### Clean Code Principles
 
-I value code that is *readable*, *modular*, *maintainable* and *scalable* and
-that's why I prefer to break up my configs to small files with sections to
-monolithic giant files. I also try to write code that is as readable and clean
-as it can be.
+I value code that is **readable**, **modular**, **maintainable** and
+**scalable** and that's why I prefer to break up my configs to small files with
+sections to monolithic giant files. I also try to write code that is as
+readable and clean as it can be.
 
 To minimize the dotfiles generated I follow the [XDG base directory
 specification](https://wiki.archlinux.org/title/XDG_Base_Directory) as it can
 be seen in my `.bashrc`
 
 > [!NOTE]
-> Even though I put an emphasis to *modularity* to this setup I haven't taken
+> Even though I put an emphasis to **modularity** to this setup I haven't taken
 > into consideration:
 > * Multiple shells (I don't use anything other than bash because they are not 
 > used in the industry)
@@ -41,12 +41,12 @@ be seen in my `.bashrc`
 
 ### Minimalism
 
-I value *minimal*, *elegant* software that *performs well*, works in
-conjunction with other programs and use text as an interface (basically the
-values that describe the [Unix
+I value **minimal**, **elegant** software that **performs well**, works **in
+conjunction** with other programs and use **text** as an interface (basically
+the values that describe the [Unix
 philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)). Based on this
-philosophy I can avoid *bloated*, *large* and *convoluted* software. Also (most
-of the time) minimal software allows me build *efficient* workflows.
+philosophy I can avoid **bloated**, **large** and **convoluted** software. Also 
+(most of the time) minimal software allows me build **efficient** workflows.
 
 So in summary I want software that:
 * uses CPU and memory efficiently
@@ -58,13 +58,13 @@ So in summary I want software that:
 
 I value secure, [Free](https://www.gnu.org/philosophy/free-sw.html) and [Open
 Source](https://opensource.org/osd) software. Well engineered secure software
-will preserve my *freedom*, *privacy* and *independence* from any
+will preserve my **freedom**, **privacy** and **independence** from any
 vendor/company that decides to control data and/or spy on me for profit.
 
 ### Reproducibility
 
-I value a setup that is hardware and distro agnostic. I believe that have this
-kind capability will show it's benefits when I decide to migrate to other 
+I value a setup that is **hardware and distro agnostic**. I believe that have 
+this kind capability will show it's benefits when I decide to migrate to other 
 machines and/or Linux distributions. At first I planed to implement this with
 primitive basic tools (bash, git, stow, rsync, cron) but I'm in the process of
 learning and using [Ansible](https://www.redhat.com/en/ansible-collaborative), 
