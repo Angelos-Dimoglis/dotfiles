@@ -7,41 +7,76 @@
 > [!NOTE]
 > I commissioned this wallpaper from 
 > [vvizardbone](https://www.instagram.com/vvizardbone/).
+> The weapons displayed are *real* historical arms housed in museums.
 
-## Table Of Contents
-
-* [Description](#Description)
-* [Programs Overview](#Programs-Overview)
-* [Key Bindings](#Key-Bindings)
-* [Setup Installation](#Setup-Installation)
-
-## Description
+## About This Repository
 
 > [!CAUTION]
 > My configs may cause undesirable effects on other systems. Make sure you read
 > and understand every file you use and modify it to suit your needs.
 
-### Features
+The purpose of this repository is to house my personal configurations of the 
+software I use. In the following sections I will describe the *values* of 
+engineering and the *goals* of this project.
 
-1. Keyboard-centric
-1. Minimal software
-1. Minimal use of resources (cpu, memory)
-1. Follows the XDG base directory specification
-1. Reproducible to other devices
+### Clean Code Principles
 
-### Features Not Yet Implemented
+I value code that is *readable*, *modular*, *maintainable* and *scalable* and
+that's why I prefer to break up my configs to small files with sections to
+monolithic giant files. I also try to write code that is as readable and clean
+as it can be.
 
-1. Hardware agnostic or modular
-    * Apply configs to any desktop or modify variables specific to the device
-1. Distro agnostic script
-    * Choose any distribution and deploy the configs via script
-1. Multi-monitor
-    * Extend the configs to suit your monitor setup
-1. Multi-shell
-    * Add and use any shell of your liking while having \"global\" shell 
-    configuration
-1. Fallback fonts
-    * The fonts installed are not yet taken in to consideration
+To minimize the dotfiles generated I follow the [XDG base directory
+specification](https://wiki.archlinux.org/title/XDG_Base_Directory) as it can
+be seen in my `.bashrc`
+
+> [!NOTE]
+> Even though I put an emphasis to *modularity* to this setup I haven't taken
+> into consideration:
+> * Multiple shells (I don't use anything other than bash because they are not 
+> used in the industry)
+> * Multiple monitors in different configurations (I believe it would be very 
+> difficult to write generic code to cover this so I try to make my configs as 
+> customizable as possible)
+
+### Minimalism
+
+I value *minimal*, *elegant* software that *performs well*, works in
+conjunction with other programs and use text as an interface (basically the
+values that describe the [Unix
+philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)). Based on this
+philosophy I can avoid *bloated*, *large* and *convoluted* software. Also (most
+of the time) minimal software allows me build *efficient* workflows.
+
+So in summary I want software that:
+* uses CPU and memory efficiently
+* has a CLI or TUI interface (over GUI applications)
+* has keyboard-centric control (using vim keybinds)
+* is scriptable
+
+### Privacy And Security
+
+I value secure, [Free](https://www.gnu.org/philosophy/free-sw.html) and [Open
+Source](https://opensource.org/osd) software. Well engineered secure software
+will preserve my *freedom*, *privacy* and *independence* from any
+vendor/company that decides to control data and/or spy on me for profit.
+
+### Reproducibility
+
+I value a setup that is hardware and distro agnostic. I believe that have this
+kind capability will show it's benefits when I decide to migrate to other 
+machines and/or Linux distributions. At first I planed to implement this with
+primitive basic tools (bash, git, stow, rsync, cron) but I'm in the process of
+learning and using [Ansible](https://www.redhat.com/en/ansible-collaborative), 
+an automation tool used in the industry.
+
+## Unimplemented Features And Fixes
+
+* fallback fonts
+* GPU generated graphics
+* Bluetooth support (status bar module)
+* Ethernet support (status bar module)
+* various TODO and FIX comments are scattered in some configs
 
 ## Programs Overview
 
@@ -95,6 +130,7 @@ I use the browser instead of these standalone programs.
 | Communication Platform | [Discord](https://discord.com/)                           |
 | Calculator             | [Gnome Calculator](https://apps.gnome.org/en/Calculator/) |
 
+<!--
 ## Key Bindings
 
 * Not yet documented
@@ -102,3 +138,8 @@ I use the browser instead of these standalone programs.
 ## Setup Installation
 
 * For information on how to reproduce my system visit my [system reproducibility]() repository
+-->
+
+## Contributing
+
+You are free to submit pull requests and open issues for improvements and/or fixes.
