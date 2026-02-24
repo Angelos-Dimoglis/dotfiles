@@ -21,10 +21,10 @@ engineering and the **goals** of this project.
 
 ### Clean Code Principles
 
-I value code that is **readable**, **modular**, **maintainable** and
-**scalable** and that's why I prefer to break up my configs to small files with
-sections to monolithic giant files. I also try to write code that is as
-readable and clean as it can be.
+I value systems that are **modular**, **maintainable** and **scalable** and 
+that's why I prefer to break up my configs to small files with sections as 
+opposed to monolithic giant files. I also try to write programs that are as
+**readable** and **predictable** so they can be understood and **maintaied**.
 
 To minimize the dotfiles generated I follow the [XDG base directory
 specification](https://wiki.archlinux.org/title/XDG_Base_Directory) as it can
