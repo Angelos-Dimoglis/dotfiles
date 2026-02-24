@@ -7,7 +7,7 @@
 > [!NOTE]
 > I commissioned this wallpaper from 
 > [vvizardbone](https://www.instagram.com/vvizardbone/).
-> The weapons displayed are *real* historical arms housed in museums.
+> The weapons displayed are **real**, **historical** arms housed in museums.
 
 ## About This Repository
 
@@ -19,10 +19,14 @@ The purpose of this repository is to house my personal configurations of the
 software I use. In the following sections I will describe the **values** of 
 engineering and the **goals** of this project.
 
+<!--
+// TODO: interface and applications separation, notes on tiling wm and tools
+-->
+
 ### Clean Code Principles
 
 I value systems that are **modular**, **maintainable** and **scalable** and 
-that's why I prefer to break up my configs to small files with sections as 
+that's why I prefer to break up my configs into small files with sections as 
 opposed to monolithic giant files. I also try to write programs that are as
 **readable** and **predictable** so they can be understood and **maintained**.
 
@@ -66,7 +70,7 @@ vendor/company that decides to control data and/or spy on me for profit.
 
 I value a setup that is **hardware and distro agnostic**. I believe that have 
 this kind capability will show it's benefits when I decide to migrate to other 
-machines and/or Linux distributions. At first I planed to implement this with
+machines and/or Linux distributions. At first I planned to implement this with
 primitive basic tools (bash, git, stow, rsync, cron) but I'm in the process of
 learning and using [Ansible](https://www.redhat.com/en/ansible-collaborative), 
 an automation tool used in the industry.
@@ -74,7 +78,7 @@ an automation tool used in the industry.
 ## Unimplemented Features And Fixes
 
 * fallback fonts
-* GPU generated graphics
+* GPU accelerated graphics
 * Bluetooth support (status bar module)
 * Ethernet support (status bar module)
 * various TODO and FIX comments are scattered in some configs
