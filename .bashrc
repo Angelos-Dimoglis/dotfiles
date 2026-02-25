@@ -30,6 +30,7 @@ export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 export GOPATH="$XDG_DATA_HOME/go"
 # FIX: ~/.nv was regenerated
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 
 ### PATH ###
 
