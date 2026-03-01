@@ -20,6 +20,7 @@
 * redo the status-line
 * show trailing spaces in sql files or anywhere
 * different tab sizes for languages
+* grammar checker
 
 ## Features Implemented
 
