@@ -9,11 +9,6 @@
 
 ### ENV VARIABLES ###
 
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_STATE_HOME="$HOME/.local/state"
-
 export BROWSER=brave
 export EDITOR=nvim
 export TERMINAL=alacritty
@@ -21,16 +16,36 @@ export PAGER=less
 export LESSHISTFILE=-
 export MANPAGER="nvim +Man\!"
 
-export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+## CONFIG ##
+
 # FIX: ~/.npm/_logs/ was generated, I haven't found how to redirect it
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
-export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
-export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
-export GOPATH="$XDG_DATA_HOME/go"
+export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+# TODO: add kubernetes and ansible
+
+## CACHE ##
+
 # FIX: ~/.nv was regenerated
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
-export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+
+## DATA ##
+
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export GOPATH="$XDG_DATA_HOME/go"
+
+## STATE ##
+
+export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
+
+## RUNTIME ##
+
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 
 ### PATH ###
 
@@ -49,6 +64,7 @@ add_to_path () {
 
 add_to_path "$XDG_DATA_HOME/cargo/bin"
 add_to_path "$HOME/Downloads/idea-IU-252.25557.131/bin"
+add_to_path "$HOME/.dotfiles/bin/"
 
 export PATH
 
