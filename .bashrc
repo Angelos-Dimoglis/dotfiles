@@ -22,29 +22,24 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
 ## CONFIG ##
-
 # FIX: ~/.npm/_logs/ was generated, I haven't found how to redirect it
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
-export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 # TODO: add kubernetes and ansible
 
 ## CACHE ##
-
 # FIX: ~/.nv was regenerated
-export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 
 ## DATA ##
-
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export GOPATH="$XDG_DATA_HOME/go"
 
 ## STATE ##
-
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 
 ## RUNTIME ##
-
 export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 
 ### PATH ###
