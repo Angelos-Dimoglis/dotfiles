@@ -21,6 +21,8 @@ return {
 
                     -- markup languages
                     "tinymist",
+
+                    "ansiblels",
                 },
                 -- default handler
                 handlers = {
@@ -64,6 +66,11 @@ return {
             vim.lsp.config("tinymist", {
                 capabilities = capabilities
             })
+
+            vim.lsp.config("ansiblels", {
+                capabilities = capabilities
+            })
+
 
             vim.diagnostic.config({
                 virtual_text = false,

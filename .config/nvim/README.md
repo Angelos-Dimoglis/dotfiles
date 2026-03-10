@@ -17,7 +17,7 @@
 * email interface
 * quick fix list
 * vim be good training game
-* redo the status-line
+* redo the status-line (errors, warnings, git indicators)
 * show trailing spaces in sql files or anywhere
 * different tab sizes for languages
 * grammar checker
