@@ -82,6 +82,9 @@ an automation tool used in the industry.
 * Bluetooth support (status bar module)
 * Ethernet support (status bar module)
 * various TODO and FIX comments are scattered in some configs
+* eye strain features
+    * adjustable brightness relative the light in the room
+    * dimming (blue light reduction)
 
 ## Programs Overview
 
