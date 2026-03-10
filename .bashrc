@@ -26,11 +26,13 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+#export KUBECONFIG="$XDG_CONFIG_HOME/kube"
 # TODO: add kubernetes and ansible
 
 ## CACHE ##
 # FIX: ~/.nv was regenerated
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
+#export KUBECACHEDIR="$XDG_CACHE_HOME/kube"
 
 ## DATA ##
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
@@ -83,8 +85,7 @@ shopt -s autocd       # <path> -> cd -- <path>
 
 ### VI MODE ###
 
-# change default (CUA) binds to vim binds
-# but keep ctrl-l
+# change default (CUA) binds to vim binds but keep ctrl-l
 set -o vi
 bind -m vi-command "Control-l: clear-screen"
 bind -m vi-insert "Control-l: clear-screen"
