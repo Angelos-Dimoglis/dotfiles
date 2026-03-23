@@ -24,29 +24,28 @@ open_files () {
     exa *."$1" | xargs -n 1 xdg-open
 }
 
-mkv_to_mp4 () {
-    for i in *.mkv; do
-        ffmpeg -i "$i" -codec copy "${i%.*}.mp4"
-    done
-}
-
 open_book () {
     local file
-    file=$(du -a ~/Desktop/books/ | grep pdf | awk '{print $2}' | fzf) || return
+
+    file=$(
+        du -a ~/Desktop/books/ | grep pdf | awk '{print $2}' | \
+        fzf --layout=reverse --border
+    ) || return
+
     nohup zathura "$file" >/dev/null 2>&1 &
 }
 
-# ssh with automatic vpn on-off
-# usage: qssh <hostname>
+# ssh to any machine that is in your config
+# manage the vpn yourself
 qssh () {
-    local host=${1:-"portokali"}
+    choice=$(
+        grep "^Host" "$HOME/.ssh/config" | \
+        cut -d' ' -f2- | tr " " "\n" | \
+        fzf --layout=reverse --border
+    ) || return
 
-    vpn_on
-    sleep 2
-    echo "connecting..."
-    sleep 2
-    ssh "${host}"
-    vpn_off
+    echo "Connecting to $choice..."
+    ssh "$choice"
 }
 
 # display weather report
