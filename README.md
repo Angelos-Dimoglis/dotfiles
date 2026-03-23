@@ -20,7 +20,8 @@ software I use. In the following sections I will describe the **values** of
 engineering and the **goals** of this project.
 
 <!--
-// TODO: interface and applications separation, notes on tiling wm and tools
+// TODO: write about the workflow of the setup, vim, i3 etc (keyboard-centric)
+and why we use keyboards and no mouse
 -->
 
 ### Clean Code Principles
@@ -85,10 +86,20 @@ an automation tool used in the industry.
 * eye strain features
     * adjustable brightness relative to the light in the room
     * dimming (blue light reduction)
+* set up alerts for disk space usage (via cron and dunst)
+* battery health and efficiecy
+    * 80% cap for battery health
+    * tlp
+* move workspaces dynamically when HDMI is plugged/unplugged
 
 ## Programs Overview
 
 Check marks indicate if configs are included in this repo for the program listed.
+
+<!--
+// TODO: interface and applications separation, say that you have other cli
+tools installe
+-->
 
 ### General
 
@@ -126,6 +137,7 @@ Check marks indicate if configs are included in this repo for the program listed
 | Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)           |                    |
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                 |                    |
 | Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       | :white_check_mark: |
+| Matrix Client          | [Element](https://element.io/en)                    |                    |
 
 ### Applications I Don't Use
 
@@ -146,6 +158,9 @@ I use the browser instead of these standalone programs.
 ## Setup Installation
 
 * For information on how to reproduce my system visit my [system reproducibility]() repository
+* or replace the said repo with a blog-post
+
+## disaster recovery plan
 -->
 
 ## Contributing
