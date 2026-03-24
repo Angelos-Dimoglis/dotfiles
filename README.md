@@ -94,12 +94,15 @@ an automation tool used in the industry.
 
 ## Programs Overview
 
-Check marks indicate if configs are included in this repo for the program listed.
+Check marks indicate if configs are included in this repo for the program
+listed.
 
-<!--
-// TODO: interface and applications separation, say that you have other cli
-tools installe
--->
+* I have separated the user-land software I use into categories:
+    * **General**: general info about my system that doesn't belong to other
+    categories
+    * **Interface**: everything related with the UI
+    * **Applications**: programs that compose my application suite
+    * **CLI tools and utils**: cli programs that I use for development
 
 ### General
 
@@ -139,18 +142,15 @@ tools installe
 | Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       | :white_check_mark: |
 | Matrix Client          | [Element](https://element.io/en)                    |                    |
 
-### Applications I Don't Use
+### CLI tools and utils
 
-I use the browser instead of these standalone programs.
-
-| Program                | Link                                                      |
-| ---------------------- | --------------------------------------------------------- |
-| Email Client           | [Mutt](http://www.mutt.org/)                              |
-| Media Player           | [Mpv](https://mpv.io/)                                    |
-| Communication Platform | [Discord](https://discord.com/)                           |
-| Calculator             | [Gnome Calculator](https://apps.gnome.org/en/Calculator/) |
+Currently not documented (they will be included in ansible tasks)
 
 <!--
+Soon to be used probably :)
+email client: mutt/neomutt
+media player: mpv
+
 ## Key Bindings
 
 * Not yet documented
