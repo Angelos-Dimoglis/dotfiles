@@ -40,7 +40,7 @@ open_book () {
 qssh () {
     choice=$(
         grep "^Host" "$HOME/.ssh/config" | \
-        cut -d' ' -f2- | tr " " "\n" | \
+        cut -d' ' -f2- | tr " " "\n" | sort | \
         fzf --layout=reverse --border
     ) || return
 
