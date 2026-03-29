@@ -150,6 +150,7 @@ Currently not documented (they will be included in ansible tasks)
 Soon to be used probably :)
 email client: mutt/neomutt
 media player: mpv
+localsend
 
 ## Key Bindings
 
