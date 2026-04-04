@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# FIX: at launch time only one of the 2 bars start, when run again everything
+# is fine
+
 # terminate already running bar instances
 killall -q polybar
 
