@@ -1,0 +1,8 @@
+
+# NOTE: Default options for stow. In case source and target directories are
+# different, change accordingly.
+# Ignored files and directories are specified in .stow-local-ignore
+
+--dir=~/.dotfiles/
+--target=~
+-vv

@@ -1,7 +1,16 @@
+
+# git related files
 .git
 .gitignore
-bin
+
+# documentation files
 screenshots
-Makefile
-README.md
+.*\.md
+
+# ansible related files
+bin
+ansible.cfg
 main.yml
+
+# other
+.stowrc
