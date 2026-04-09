@@ -3,6 +3,9 @@
 .git
 .gitignore
 
+# github related files
+.github/
+
 # documentation files
 screenshots
 .*\.md
