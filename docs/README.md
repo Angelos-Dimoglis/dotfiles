@@ -167,6 +167,7 @@ localsend
 
 ## Contributing
 
-You are free to submit pull requests and open issues for improvements and/or fixes.
+For information about contributing to this project visit the 
+[contributing page](CONTRIBUTING.md)
 
 [Back to top]()
