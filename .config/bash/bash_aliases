@@ -30,7 +30,7 @@ alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias xclip="xclip -selection c"
 alias bc="bc -q"
-alias path="echo $PATH | tr \":\" \"\n\" "
+alias path="echo $PATH | tr : \"\n\" "
 alias gdb="gdb -tui"
 #alias clear="echo you dont need to clear" # I am chronic clearer
 # TODO: find a way to block the command "rm -rf /" just in case
