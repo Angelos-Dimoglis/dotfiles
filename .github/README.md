@@ -103,7 +103,7 @@ categories
 * **CLI tools and utils**: cli programs that I use for development
 
 > [!NOTE]
-> Check marks indicate if configs are included in this repo for the program
+> Checkmarks indicate if configs are included in this repo for the program
 > listed.
 
 ### General
