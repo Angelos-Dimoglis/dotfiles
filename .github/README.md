@@ -94,9 +94,6 @@ an automation tool used in the industry.
 
 ## Programs Overview
 
-Check marks indicate if configs are included in this repo for the program
-listed.
-
 I have separated the user-land software I use into categories:
 
 * **General**: general info about my system that doesn't belong to other
@@ -104,6 +101,10 @@ categories
 * **Interface**: everything related with the UI
 * **Applications**: programs that compose my application suite
 * **CLI tools and utils**: cli programs that I use for development
+
+> [!NOTE]
+> Check marks indicate if configs are included in this repo for the program
+> listed.
 
 ### General
 
