@@ -4,7 +4,6 @@
 
 ![image_of_rice](../screenshots/desktop_2025-08-10.png)
 
-> [!NOTE]
 > I commissioned this wallpaper from 
 > [vvizardbone](https://www.instagram.com/vvizardbone/).
 > The weapons displayed are **real**, **historical** arms housed in museums.
