@@ -146,6 +146,7 @@ categories
 | Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       | :white_check_mark: |
 | Matrix Client          | [Element](https://element.io/en)                    |                    |
 | File Sharing Tool      | [LocalSend](https://localsend.org/)                 |                    |
+| Screenshot Tool        | [Flameshot](https://flameshot.org/)                 |                    |
 
 ### CLI tools and utils
 
