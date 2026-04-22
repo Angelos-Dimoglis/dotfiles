@@ -17,11 +17,14 @@
 The purpose of this repository is to house my personal configurations of the 
 software I use. In the following sections I will describe the **values** of 
 engineering and the **goals** of this project.
+<!-- move the bit about goals down -->
 
 <!--
 // TODO: write about the workflow of the setup, vim, i3 etc (keyboard-centric)
 and why we use keyboards and no mouse
 -->
+
+<!-- why should I care section -->
 
 ### Clean Code Principles
 
@@ -142,6 +145,7 @@ categories
 | Password Manager       | [KeePassXC](https://keepassxc.org/)                 |                    |
 | Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       | :white_check_mark: |
 | Matrix Client          | [Element](https://element.io/en)                    |                    |
+| File Sharing Tool      | [LocalSend](https://localsend.org/)                 |                    |
 
 ### CLI tools and utils
 
@@ -149,9 +153,8 @@ Currently not documented (they will be included in ansible tasks)
 
 <!--
 Soon to be used probably :)
-email client: mutt/neomutt
+email client: mutt/neomutt, aerc
 media player: mpv
-localsend
 
 ## Key Bindings
 
