@@ -137,7 +137,7 @@ categories
 | Program                | Link                                                | Config             |
 | ---------------------- | --------------------------------------------------- | ------------------ |
 | Primary Browser        | [Brave](https://brave.com/)                         |                    |
-| Secondary Browser      | [Firefox](https://www.mozilla.org/en-US/)           |                    |
+| Secondary Browser      | [LibreWolf](https://librewolf.net/)                 |                    |
 | Privacy Browser        | [Tor](https://www.torproject.org/?noredirect=1)     |                    |
 | Terminal Emulator      | [Alacritty](https://github.com/alacritty/alacritty) | :white_check_mark: |
 | Text Editor            | [NeoVim](https://neovim.io/)                        | :white_check_mark: |
