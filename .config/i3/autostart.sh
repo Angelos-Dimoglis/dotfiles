@@ -6,7 +6,7 @@
 if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
 	# set it in the left of primary monitor
 	xrandr \
-	--output eDp-1  --mode 1920x1080 --rotate normal --primary \
+	--output eDP-1  --mode 1920x1080 --rotate normal --primary \
 	--output HDMI-1 --mode 1920x1080 --rotate normal --left-of eDP-1
 fi
 

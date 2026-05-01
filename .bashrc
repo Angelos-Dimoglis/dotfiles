@@ -26,6 +26,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+export KUBECONFIG="$HOME/.kube/config"
 #export KUBECONFIG="$XDG_CONFIG_HOME/kube"
 # TODO: add kubernetes and ansible
 
