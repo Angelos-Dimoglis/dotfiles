@@ -153,9 +153,6 @@ categories
 Currently not documented (they will be included in ansible tasks)
 
 <!--
-Soon to be used probably :)
-email client: mutt/neomutt, aerc
-media player: mpv
 
 ## Key Bindings
 
