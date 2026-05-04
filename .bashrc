@@ -122,3 +122,9 @@ for file in \
 do
     [ -f "$file" ] && . "$file"
 done
+
+# if [ -z "$SSH_AUTH_SOCK" ]; then
+#    eval "$(ssh-agent -s)"
+# fi
+#
+# ssh-add ~/.ssh/github_key 2>/dev/null
