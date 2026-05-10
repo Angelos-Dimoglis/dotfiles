@@ -95,7 +95,6 @@ an automation tool used in the industry.
     * 80% cap for battery health
     * tlp
 * move workspaces dynamically when HDMI is plugged/unplugged
-
 * X11 mouse teleport from screen to screen
 * status bar doesnt render composite emoji(s)
 * new and updated panel (replace conky)
