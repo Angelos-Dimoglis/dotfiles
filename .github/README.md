@@ -80,29 +80,6 @@ primitive basic tools (bash, git, stow, rsync, cron) but I'm in the process of
 learning and using [Ansible](https://www.redhat.com/en/ansible-collaborative), 
 an automation tool used in the industry.
 
-## Unimplemented Features And Fixes
-
-* fallback fonts
-* GPU accelerated graphics
-* Bluetooth support (status bar module)
-* Ethernet support (status bar module)
-* various TODO and FIX comments are scattered in some configs
-* eye strain features
-    * adjustable brightness relative to the light in the room
-    * dimming (blue light reduction)
-* set up alerts for disk space usage (via cron and dunst)
-* battery health and efficiecy
-    * 80% cap for battery health
-    * tlp
-* move workspaces dynamically when HDMI is plugged/unplugged
-* X11 mouse teleport from screen to screen
-* status bar doesnt render composite emoji(s)
-* new and updated panel (replace conky)
-* signed git commits
-* redo neovim for 0.12 version
-* look for a terminal with more modern features
-    * follow links and scroll without the mouse
-
 ## Programs Overview
 
 I have separated the user-land software I use into categories:
@@ -180,5 +157,28 @@ test
 
 For information about contributing to this project visit the 
 [contributing page](CONTRIBUTING.md)
+
+## Unimplemented Features And Fixes
+
+* fallback fonts
+* GPU accelerated graphics
+* Bluetooth support (status bar module)
+* Ethernet support (status bar module)
+* various TODO and FIX comments are scattered in some configs
+* eye strain features
+    * adjustable brightness relative to the light in the room
+    * dimming (blue light reduction)
+* set up alerts for disk space usage (via cron and dunst)
+* battery health and efficiecy
+    * 80% cap for battery health
+    * tlp
+* move workspaces dynamically when HDMI is plugged/unplugged
+* X11 mouse teleport from screen to screen
+* status bar doesnt render composite emoji(s)
+* new and updated panel (replace conky)
+* signed git commits
+* redo neovim for 0.12 version
+* look for a terminal with more modern features
+    * follow links and scroll without the mouse
 
 [Back to top](#Dotfiles)
