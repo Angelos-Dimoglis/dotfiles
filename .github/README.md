@@ -1,3 +1,5 @@
+<div align=right>Table of Contents↗️</div>
+
 <div align="center">
     <h1>Dotfiles</h1>
 </div>
@@ -93,6 +95,14 @@ an automation tool used in the industry.
     * 80% cap for battery health
     * tlp
 * move workspaces dynamically when HDMI is plugged/unplugged
+
+* X11 mouse teleport from screen to screen
+* status bar doesnt render composite emoji(s)
+* new and updated panel (replace conky)
+* signed git commits
+* redo neovim for 0.12 version
+* look for a terminal with more modern features
+    * follow links and scroll without the mouse
 
 ## Programs Overview
 
