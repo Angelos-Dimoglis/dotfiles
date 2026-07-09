@@ -120,19 +120,20 @@ categories
 
 ### Applications
 
-| Program                | Link                                                | Config             |
-| ---------------------- | --------------------------------------------------- | ------------------ |
-| Primary Browser        | [Brave](https://brave.com/)                         |                    |
-| Secondary Browser      | [LibreWolf](https://librewolf.net/)                 |                    |
-| Privacy Browser        | [Tor](https://www.torproject.org/?noredirect=1)     |                    |
-| Terminal Emulator      | [Alacritty](https://github.com/alacritty/alacritty) | :white_check_mark: |
-| Text Editor            | [NeoVim](https://neovim.io/)                        | :white_check_mark: |
-| Graphical File Manager | [Nemo](https://github.com/linuxmint/nemo)           |                    |
-| Password Manager       | [KeePassXC](https://keepassxc.org/)                 |                    |
-| Document Viewer        | [Zathura](https://pwmt.org/projects/zathura/)       | :white_check_mark: |
-| Matrix Client          | [Element](https://element.io/en)                    |                    |
-| File Sharing Tool      | [LocalSend](https://localsend.org/)                 |                    |
-| Screenshot Tool        | [Flameshot](https://flameshot.org/)                 |                    |
+| Program                  | Link                                                                  | Config             |
+| ------------------------ | --------------------------------------------------------------------- | ------------------ |
+| Primary Browser          | [Brave](https://brave.com/)                                           |                    |
+| Secondary Browser        | [LibreWolf](https://librewolf.net/)                                   |                    |
+| Privacy Browser          | [Tor](https://www.torproject.org/?noredirect=1)                       |                    |
+| Terminal Emulator        | [Alacritty](https://github.com/alacritty/alacritty)                   | :white_check_mark: |
+| Text Editor              | [NeoVim](https://neovim.io/)                                          | :white_check_mark: |
+| Graphical File Manager   | [Nemo](https://github.com/linuxmint/nemo)                             |                    |
+| Password Manager         | [KeePassXC](https://keepassxc.org/)                                   |                    |
+| Document Viewer          | [Zathura](https://pwmt.org/projects/zathura/)                         | :white_check_mark: |
+| Matrix Client            | [Element](https://element.io/en)                                      |                    |
+| File Sharing Tool        | [LocalSend](https://localsend.org/)                                   |                    |
+| Screenshot Tool          | [Flameshot](https://flameshot.org/)                                   | [ ]                |
+| Office Suite Alternative | [Typst](https://typst.app/), [AWK](https://en.wikipedia.org/wiki/AWK) | [x]                |
 
 ### CLI tools and utils
 
@@ -180,5 +181,7 @@ For information about contributing to this project visit the
 * redo neovim for 0.12 version
 * look for a terminal with more modern features
     * follow links and scroll without the mouse
+* when HDMI is pulled alt+shift language switch is broken
+* on startup the apps may open on the same workspace
 
 [Back to top](#Dotfiles)
