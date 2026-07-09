@@ -43,7 +43,8 @@ export GOPATH="$XDG_DATA_HOME/go"
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 
 ## RUNTIME ##
-export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+
+#export XAUTHORITY="$HOME/.Xauthority"
 
 ### PATH ###
 
