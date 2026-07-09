@@ -132,7 +132,7 @@ categories
 | Document Viewer          | [Zathura](https://pwmt.org/projects/zathura/)                         | :white_check_mark: |
 | Matrix Client            | [Element](https://element.io/en)                                      |                    |
 | File Sharing Tool        | [LocalSend](https://localsend.org/)                                   |                    |
-| Screenshot Tool          | [Flameshot](https://flameshot.org/)                                   |                    |
+| Screenshot Tool          | [Flameshot](https://flameshot.org/)                                   | :white_check_mark: |
 | Office Suite Alternative | [Typst](https://typst.app/), [AWK](https://en.wikipedia.org/wiki/AWK) |                    |
 
 ### CLI tools and utils
