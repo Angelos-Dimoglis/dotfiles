@@ -163,7 +163,7 @@ For information about contributing to this project visit the
 
 ## License
 
-Make sure to read the [LICENSE](LICENSE)
+Make sure to read the [license](../LICENSE)
 
 ## Unimplemented Features And Fixes
 
