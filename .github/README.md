@@ -24,6 +24,8 @@ engineering and the **goals** of this project.
 <!--
 // TODO: write about the workflow of the setup, vim, i3 etc (keyboard-centric)
 and why we use keyboards and no mouse
+
+also add a bullt list of notable features
 -->
 
 <!-- why should I care section -->
@@ -159,6 +161,10 @@ test
 For information about contributing to this project visit the 
 [contributing page](CONTRIBUTING.md)
 
+## License
+
+Make sure to read the [license](LICENSE)
+
 ## Unimplemented Features And Fixes
 
 * fallback fonts
@@ -176,12 +182,14 @@ For information about contributing to this project visit the
 * move workspaces dynamically when HDMI is plugged/unplugged
 * X11 mouse teleport from screen to screen
 * status bar doesnt render composite emoji(s)
+* when HDMI is pulled alt+shift language switch is broken
+* on startup the apps may open on the same workspace
+
+* replace exa with eza
 * new and updated panel (replace conky)
 * signed git commits
 * redo neovim for 0.12 version
 * look for a terminal with more modern features
     * follow links and scroll without the mouse
-* when HDMI is pulled alt+shift language switch is broken
-* on startup the apps may open on the same workspace
 
 [Back to top](#Dotfiles)
