@@ -11,12 +11,12 @@ alias 5.="cd ../../../../.."
 LS_FLAGS="-la --color=auto --group-directories-first"
 
 # if exa is installed
-if command -v exa >/dev/null 2>&1; then
-	alias ls="exa ${LS_FLAGS} --icons --git"       # standard
-	alias lm="exa ${LS_FLAGS} --no-user --no-time" # minimal
-	alias ll="exa ${LS_FLAGS} -gh --git"           # long format
-	alias l.="exa ${LS_FLAGS} -d .*"               # dot files/dirs
-    alias lt="exa ${LS_FLAGS} --tree --level=2"    # tree view
+if command -v eza >/dev/null 2>&1; then
+	alias ls="eza ${LS_FLAGS} --icons --git"       # standard
+	alias lm="eza ${LS_FLAGS} --no-user --no-time" # minimal
+	alias ll="eza ${LS_FLAGS} -gh --git"           # long format
+	alias l.="eza ${LS_FLAGS} -d .*"               # dot files/dirs
+    alias lt="eza ${LS_FLAGS} --tree --level=2"    # tree view
 else
 	alias ls="ls ${LS_FLAGS} -h"
 fi
