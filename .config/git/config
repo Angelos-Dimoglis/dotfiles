@@ -1,6 +1,22 @@
 [user]
 	name = Angelos-Dimoglis
 	email = angelos.titos@gmail.com
+    signingkey = ~/.ssh/github_key.pub
+
+[gpg]
+    format = ssh
+
+[gpg "ssh"]
+    allowedSignersFile = ~/.ssh/allowed_signers
+
+[commit]
+	gpgsign = true
+
+[tag]
+    gpgsign = true
+
+[core]
+    whitespace = error
 
 [init]
 	defaultBranch = master
@@ -9,6 +25,15 @@
     st = status -s
     lol = log --oneline --graph --all
     dc = diff --cached
+    dif = --output-indicator-new=' ' --output-indicator-old=' '
+
+[diff]
+    context = 3
+    renames = copies
+    interHunkContext = 10
+
+[rabase]
+    missingCommitsCheck = warn
 
 # git clone ad:<repo_name>
 [url "git@github.com:Angelos-Dimoglis/"]
@@ -17,3 +42,4 @@
 # git clone gh:<username>/<repo_name>
 [url "git@github.com:"]
     insteadOf = "gh:"
+
