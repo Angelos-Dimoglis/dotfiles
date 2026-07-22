@@ -185,9 +185,7 @@ Make sure to read the [license](../LICENSE)
 * when HDMI is pulled alt+shift language switch is broken
 * on startup the apps may open on the same workspace
 
-* replace exa with eza
 * new and updated panel (replace conky)
-* signed git commits
 * redo neovim for 0.12 version
 * look for a terminal with more modern features
     * follow links and scroll without the mouse
