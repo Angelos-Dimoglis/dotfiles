@@ -185,6 +185,8 @@ Make sure to read the [license](../LICENSE)
 * when HDMI is pulled alt+shift language switch is broken
 * on startup the apps may open on the same workspace
 
+
+
 * new and updated panel (replace conky)
 * redo neovim for 0.12 version
 * look for a terminal with more modern features
