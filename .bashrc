@@ -111,7 +111,7 @@ fi
 
 ### TEMP PROMPT ###
 
-PS1="temp_prompt > "
+PS1="temp \u@\W > "
 
 ### SOURCING FILES ###
 
