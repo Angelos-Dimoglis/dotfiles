@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # FIX: at launch time only one of the 2 bars start, when run again everything
 # is fine
@@ -14,8 +14,8 @@ CONFIG=$HOME/.config/polybar/config.ini
 # launch primary bar
 polybar bar --config=$CONFIG &
 
-# if hdmi is connected
-if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
+# if another monitor is connected
+if xrandr -q | grep -qw 'HDMI-1 connected'; then
 	# launch external bar
 	polybar external --config=$CONFIG &
 fi
