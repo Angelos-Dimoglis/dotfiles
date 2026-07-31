@@ -1,20 +1,24 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# TODO: add variable for ports and/or add complete multi-monitor support
+PRIMARY="eDP-1"
+SECONDARY="HDMI-1"
 
 # if another monitor is connected
-if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
-	# set it in the left of primary monitor
+if xrandr -q | grep -qw "${SECONDARY} connected"; then
 	xrandr \
-	--output eDP-1  --mode 1920x1080 --rotate normal --primary \
-	--output HDMI-1 --mode 1920x1080 --rotate normal --left-of eDP-1
+	--output $PRIMARY --mode 1920x1080 --rotate normal --primary \
+	--output $SECONDARY --mode 1920x1080 --rotate normal --left-of $PRIMARY
+else
+	xrandr \
+    --output $PRIMARY --mode 1920x1080 --rotate normal --primary \
+    --output $SECONDARY --off
 fi
 
 # set wallpaper
 nitrogen --restore
 
 # launch polybar(s)
-$HOME/.config/polybar/launch.sh
+"$HOME/.config/polybar/launch.sh"
 
 # launch conky(s)
-$HOME/.config/conky/launch.sh
+"$HOME/.config/conky/launch.sh"
