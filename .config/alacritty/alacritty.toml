@@ -1,5 +1,7 @@
 [window]
 
+# NOTE: ctrl+shift+space for vi mode and ctrl+shot+O for hints (follow links)
+
 [scrolling]
 history = 10000
 multiplier = 3
