@@ -6,14 +6,14 @@ SECONDARY="HDMI-1"
 # if another monitor is connected
 if xrandr -q | grep -qw "${SECONDARY} connected"; then
 	xrandr \
-	--output $PRIMARY --mode 1920x1080 --rotate normal --primary \
+	--output $PRIMARY   --mode 1920x1080 --rotate normal --primary \
 	--output $SECONDARY --mode 1920x1080 --rotate normal --left-of $PRIMARY
-    sleep 0.5
+    sleep 0.5 # buffer time to let X11 register the change
 else
 	xrandr \
-    --output $PRIMARY --mode 1920x1080 --rotate normal --primary \
+    --output $PRIMARY   --mode 1920x1080 --rotate normal --primary \
     --output $SECONDARY --off
-    sleep 0.5
+    sleep 0.5 # buffer time to let X11 register the change
 fi
 
 # set wallpaper

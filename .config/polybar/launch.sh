@@ -17,5 +17,5 @@ polybar bar --config=$CONFIG &
 if xrandr -q | grep -qw "${SECONDARY} connected"; then
 	# launch external bar
     sleep 1
-    polybar external --config=$CONFIG
+    polybar external --config=$CONFIG &
 fi
