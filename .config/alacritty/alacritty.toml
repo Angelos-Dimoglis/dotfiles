@@ -6,9 +6,9 @@
 history = 10000
 multiplier = 3
 
+# TODO: chacge font size depending on what monitor the terminal is opened on
 [font]
 normal = { family = "FiraMono NerdFont", style = "Regular" }
-# TODO: chacge font size depending on what monitor the terminal is opened on
 size = 13.5
 
 [colors.primary]
