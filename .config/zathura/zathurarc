@@ -3,3 +3,5 @@ set statusbar-basename true
 
 set selection-clipboard clipboard
 set selection-notification false
+
+set selection-keep-highlight true
