@@ -1,9 +1,10 @@
 set font "FiraMono Nerd Font Mono 12"
+
 set statusbar-basename true
+set window-title-basename "true"
 
 set selection-clipboard clipboard
 set selection-notification false
-
 set selection-keep-highlight true
 
 # gruvbox dark hard color scheme
