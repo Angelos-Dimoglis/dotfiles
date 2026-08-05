@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Color definitions (taken from Color Bash Prompt HowTo).
 # Some colors might look different of some terminals.
