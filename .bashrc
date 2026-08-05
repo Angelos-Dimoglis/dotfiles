@@ -84,7 +84,6 @@ HISTIGNORE="ls*:cd:clear*:exit:history*:qssh*"
 
 shopt -s histappend   # append to the history file, don't overwrite it
 shopt -s checkwinsize # check terminal size
-shopt -s autocd       # <path> -> cd -- <path>
 
 ### VI MODE ###
 
