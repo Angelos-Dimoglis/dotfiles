@@ -12,9 +12,9 @@ screenshots
 .*\.md
 
 # ansible related files
-bin
 ansible.cfg
 main.yml
 
 # other
 .stowrc
+scripts
