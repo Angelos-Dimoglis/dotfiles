@@ -10,7 +10,7 @@ set $mod mod4
 set $terminal alacritty
 set $launcher "rofi -show drun"
 set $screenshot_select "flameshot gui"
-set $screenlocker "betterlockscreen -l"
+set $screenlocker "betterlockscreen -l --show-layout"
 
 # gaps
 set $inner_gap_size 8

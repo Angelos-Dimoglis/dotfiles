@@ -191,7 +191,6 @@ Make sure to read the [license](../LICENSE)
 * move workspaces dynamically when HDMI is plugged/unplugged
 * replace conky with EWW
 * update neovim for version 0.12
-* add betterlockscreen config and modify it to show the selected language
 * see dunst todos and fixes
 * add zathura theme switcher keybind
 * lockscreen on sleep and suspend
