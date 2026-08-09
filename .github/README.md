@@ -117,7 +117,7 @@ categories
 | System Monitor And Widget | [Conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file)         | :white_check_mark: |
 | Background Browser        | [Nitrogen](https://github.com/l3ib/nitrogen/)                            |                    |
 | Login Manager             | [Ly](https://github.com/fairyglade/ly)                                   |                    |
-| Lock Screen               | [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) |                    |
+| Lock Screen               | [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) | :white_check_mark: |
 | Notification Deamon       | [Dunst](https://github.com/betterlockscreen/betterlockscreen)            | :white_check_mark: |
 
 ### Applications
@@ -167,24 +167,35 @@ Make sure to read the [license](../LICENSE)
 
 ## Unimplemented Features And Fixes
 
+### Known Bugs
+
+* X11 mouse teleport from screen to screen
+* status bar doesnt render composite emoji(s)
+* when HDMI is pulled alt+shift language switch is broken
+* on startup the apps may open on the same workspace
+
+### Features TODO
+
 * fallback fonts
 * GPU accelerated graphics
 * Bluetooth support (status bar module)
 * Ethernet support (status bar module)
 * various TODO and FIX comments are scattered in some configs
+* set up alerts for disk space usage (via cron and dunst)
 * eye strain features
     * adjustable brightness relative to the light in the room
     * dimming (blue light reduction)
-* set up alerts for disk space usage (via cron and dunst)
 * battery health and efficiecy
     * 80% cap for battery health
     * tlp
 * move workspaces dynamically when HDMI is plugged/unplugged
-* X11 mouse teleport from screen to screen
-* status bar doesnt render composite emoji(s)
-* when HDMI is pulled alt+shift language switch is broken
-* on startup the apps may open on the same workspace
 * replace conky with EWW
 * update neovim for version 0.12
+* add betterlockscreen config and modify it to show the selected language
+* see dunst todos and fixes
+* add zathura theme switcher keybind
+* lockscreen on sleep and suspend
+    * visit this [page](https://github.com/betterlockscreen/betterlockscreen/tree/next#systemd)
+* rofi system tray (sleep, suspend, poweroff, etc)
 
 [Back to top](#Dotfiles)
