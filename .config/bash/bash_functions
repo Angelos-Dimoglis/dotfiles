@@ -21,7 +21,7 @@ typst_prev () {
 
 # open all <extention> files in current directory
 open_files () {
-    exa *."$1" | xargs -n 1 xdg-open
+    eza *."$1" | xargs -n 1 xdg-open
 }
 
 open_book () {
