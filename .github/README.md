@@ -193,8 +193,6 @@ Make sure to read the [license](../LICENSE)
 * update neovim for version 0.12
 * see dunst todos and fixes
 * add zathura theme switcher keybind
-* lockscreen on sleep and suspend
-    * visit this [page](https://github.com/betterlockscreen/betterlockscreen/tree/next#systemd)
 * rofi system tray (sleep, suspend, poweroff, etc)
 
 [Back to top](#Dotfiles)
