@@ -26,6 +26,7 @@
     lol = log --oneline --graph --all
     dc = diff --cached
     dif = --output-indicator-new=' ' --output-indicator-old=' '
+    rs = restore --staged
 
 [diff]
     context = 3
