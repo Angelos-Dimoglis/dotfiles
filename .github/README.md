@@ -187,12 +187,8 @@ Make sure to read the [license](../LICENSE)
 * Ethernet support (status bar module)
 * various TODO and FIX comments are scattered in some configs
 * set up alerts for disk space usage (via cron and dunst)
-* eye strain features
-    * adjustable brightness relative to the light in the room
-    * dimming (blue light reduction)
-* battery health and efficiecy
-    * 80% cap for battery health
-    * tlp
+* eye strain features (adjustable brightness, blue light reduction)
+* battery health and efficiecy (80% cap, tlp)
 * move workspaces dynamically when HDMI is plugged/unplugged
 * replace conky with EWW
 * update neovim for version 0.12
