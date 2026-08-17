@@ -4,6 +4,10 @@
     <h1>Dotfiles</h1>
 </div>
 
+<!-- single line of <link> bullet <link> bullet <link>
+instead of table of contents
+-->
+
 ![image_of_rice](../screenshots/desktop_2025-08-10.png)
 
 > I commissioned this wallpaper from 
@@ -25,7 +29,7 @@ engineering and the **goals** of this project.
 // TODO: write about the workflow of the setup, vim, i3 etc (keyboard-centric)
 and why we use keyboards and no mouse
 
-also add a bullt list of notable features
+also add a bullet list of notable features
 -->
 
 <!-- why should I care section -->
@@ -86,6 +90,7 @@ an automation tool used in the industry.
 
 I have separated the user-land software I use into categories:
 
+<!-- add kubernetes config -->
 * **General**: general info about my system that doesn't belong to other
 categories
 * **Interface**: everything related with the UI
@@ -193,6 +198,6 @@ Make sure to read the [license](../LICENSE)
 * update neovim for version 0.12
 * see dunst todos and fixes
 * add zathura theme switcher keybind
-* rofi system tray (sleep, suspend, poweroff, etc)
+* make an ansible playbook as a post-install script
 
 [Back to top](#Dotfiles)

@@ -3,7 +3,7 @@
 configuration {
 	display-drun: "Applications:";
 	drun-display-format: "{name}";
-	modi: "run,drun,keys,ssh";
+	modi: "run,drun,keys,ssh,system_tray:~/.config/rofi/scripts/system_tray.sh";
 	show-icons: true;
 	// -icons-theme: "Papirus";
 }

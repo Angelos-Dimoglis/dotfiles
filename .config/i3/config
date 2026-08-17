@@ -1,13 +1,13 @@
 # i3 config
 
-# TODO: rethink all keybinds
-# read the docs
+# TODO: rethink all keybinds (read the docs)
+# break up to smaller modules
 
 # set modifier key to super
 set $mod mod4 
 
 # setting variables for programs
-set $terminal alacritty
+set $terminal "alacritty"
 set $launcher "rofi -show drun"
 set $screenshot_select "flameshot gui"
 set $screenlocker "betterlockscreen -l --show-layout"
@@ -65,6 +65,9 @@ bindsym $mod+Shift+x exec $screenlocker
 
 # choose area of your screen to screenshot
 bindsym $mod+s exec $screenshot_select
+
+# open system tray
+bindsym $mod+Shift+s exec "rofi -show system_tray"
 
 # start a terminal
 bindsym $mod+Return exec $terminal
