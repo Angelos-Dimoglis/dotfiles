@@ -21,6 +21,11 @@ typst_prev () {
 
 # open all <extention> files in current directory
 open_files () {
+    if [ -z "$1" ]; then
+        echo "No extension given"
+        return
+    fi
+
     eza *."$1" | xargs -n 1 xdg-open
 }
 
@@ -38,6 +43,8 @@ open_book () {
 # ssh to any machine that is in your config
 # manage the vpn yourself
 qssh () {
+    local choice
+
     choice=$(
         grep "^Host" "$HOME/.ssh/config" | \
         grep -v -E "\*|github.com" | \
