@@ -11,6 +11,7 @@ set $terminal "alacritty"
 set $launcher "rofi -show drun"
 set $screenshot_select "flameshot gui"
 set $screenlocker "betterlockscreen -l --show-layout"
+set $system_tray "rofi -show system_tray"
 
 # gaps
 set $inner_gap_size 8
@@ -67,7 +68,7 @@ bindsym $mod+Shift+x exec $screenlocker
 bindsym $mod+s exec $screenshot_select
 
 # open system tray
-bindsym $mod+Shift+s exec "rofi -show system_tray"
+bindsym $mod+Shift+s exec $system_tray
 
 # start a terminal
 bindsym $mod+Return exec $terminal
