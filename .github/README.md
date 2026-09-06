@@ -195,5 +195,8 @@ Make sure to read the [license](../LICENSE)
 * see dunst todos and fixes
 * add zathura theme switcher keybind
 * make an ansible playbook as a post-install script
+* fix bash completion
+* break up i3 config to smaller modules
+* change stow target to root so you can track ssh config, and scripts
 
 [Back to top](#Dotfiles)
