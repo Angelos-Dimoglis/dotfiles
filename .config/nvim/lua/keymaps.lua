@@ -10,6 +10,8 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 
+vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+
 vim.keymap.set('n', "<space>a", vim.lsp.buf.code_action)
 
 -- Better window navigation
