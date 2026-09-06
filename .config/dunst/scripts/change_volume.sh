@@ -7,6 +7,8 @@ send_notification() {
     -h int:value:"$volume" -i "volume_$1" "Volume: ${volume}%"
 }
 
+# FIX: add check for out of bounds increase and decrease of volume
+
 case $1 in
     up)
         pamixer -u
