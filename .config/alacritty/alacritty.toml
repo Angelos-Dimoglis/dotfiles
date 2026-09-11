@@ -1,6 +1,8 @@
 [window]
 
-# NOTE: ctrl+shift+space for vi mode and ctrl+shot+O for hints (follow links)
+# NOTE: some useful alacritty keybinds
+# ctrl+shift+space toggle vi mode 
+# ctrl+shift+o for hints (follow links)
 
 [scrolling]
 history = 10000
