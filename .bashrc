@@ -29,6 +29,7 @@ export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 export KUBECONFIG="$HOME/.kube/config"
 #export KUBECONFIG="$XDG_CONFIG_HOME/kube"
 # TODO: add kubernetes and ansible
+export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 
 ## CACHE ##
 # FIX: ~/.nv was regenerated
