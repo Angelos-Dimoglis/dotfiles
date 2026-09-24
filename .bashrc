@@ -21,14 +21,16 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
+# TODO: redirect kubernetes and ansible config and cache files
+
 ## CONFIG ##
+
 # FIX: ~/.npm/_logs/ was generated, I haven't found how to redirect it
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 export GIT_CONFIG="$XDG_CONFIG_HOME/git/config"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 export KUBECONFIG="$HOME/.kube/config"
 #export KUBECONFIG="$XDG_CONFIG_HOME/kube"
-# TODO: add kubernetes and ansible
 export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 
 ## CACHE ##
@@ -94,8 +96,7 @@ bind -m vi-insert "Control-l: clear-screen"
 
 ### COMPLETION ###
 
-# FIX: this was kept from the original default bashrc but completion
-# doesn't work.
+# NOTE: kept from the original .bashrc (linux mint, 2022)
 #
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -105,8 +106,7 @@ if ! shopt -oq posix; then
         . /usr/share/bash-completion/bash_completion
     elif [ -f /etc/bash_completion ]; then
         . /etc/bash_completion
-    fi
-fi
+    fi fi
 
 ### TEMP PROMPT ###
 
