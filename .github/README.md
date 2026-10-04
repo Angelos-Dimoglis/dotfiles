@@ -178,11 +178,11 @@ Make sure to read the [license](../LICENSE)
 * status bar doesnt render composite emoji(s)
 * when HDMI is pulled alt+shift language switch is broken
 * on startup the apps may open on the same workspace
+* suspend-lock hook doesnt run after a long time of sleep
 
 ### Features TODO
 
 * fallback fonts
-* GPU accelerated graphics
 * Bluetooth support (status bar module)
 * Ethernet support (status bar module)
 * various TODO and FIX comments are scattered in some configs
@@ -195,8 +195,8 @@ Make sure to read the [license](../LICENSE)
 * see dunst todos and fixes
 * add zathura theme switcher keybind
 * make an ansible playbook as a post-install script
-* fix bash completion
 * break up i3 config to smaller modules
 * change stow target to root so you can track ssh config, and scripts
+* decrypt disk at login time
 
 [Back to top](#Dotfiles)
